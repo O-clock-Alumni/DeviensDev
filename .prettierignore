@@ -1,0 +1,9 @@
+# Dependencies NPM / Yarn
+/node_modules
+/.cache
+
+# Build Compiled.
+/public
+
+# Logs
+/*.log

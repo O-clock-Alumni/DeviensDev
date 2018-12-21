@@ -1,0 +1,38 @@
+/*
+ * Root
+ */
+html {
+  color: #000;
+  font-size: 87.5%;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media (min-width: 1060px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 92.5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 97.5%;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+}

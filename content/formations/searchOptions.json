@@ -1,0 +1,16 @@
+{
+  "required": {
+    "metiers": {
+      "title": "Sur quel(s) metier(s) veux-tu te former ?",
+      "options": ["développeur web", "développeur mobile", "admin système"]
+    },
+    "diplomes": {
+      "title": "Diplôme(s) visé(s)",
+      "options": ["BTS", "Licence", "Master", "Titre Professionnel niveau II", "Titre Professionnel niveau III"]
+    }
+  },
+  "optional": {
+    "format": ["Présentiel", "A distance"],
+    "type": ["En continu", "En alternance"]
+  }
+}
