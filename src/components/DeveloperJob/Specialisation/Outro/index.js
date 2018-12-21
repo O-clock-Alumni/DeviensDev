@@ -25,7 +25,7 @@ const Outro = () => (
     </S.Text>
 
     <S.Button to="/metier-developpeur/competences-et-prerequis">
-      Compétence <br />
+      Compétences<br />
       et pré-requis
     </S.Button>
   </S.Container>
