@@ -17,8 +17,8 @@ RUN apk add vips-dev fftw-dev build-base \
 
 COPY . /src
 WORKDIR /src
-RUN export $(cat .env | xargs)
 ARG NODE_ENV=production
+ARG DEVIENSDEV_GITHUB_TOKEN
 
 # COPY bin/production-build.sh /bin/production-build.sh
 # RUN /bin/production-build.sh
