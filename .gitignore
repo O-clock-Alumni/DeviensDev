@@ -13,3 +13,4 @@ Thumbs.db
 /*.log
 
 # Misc.
+.env

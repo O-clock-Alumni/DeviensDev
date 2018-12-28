@@ -48,7 +48,6 @@ exports.onCreateWebpackConfig = ({ actions, plugins }) => {
       // mainFields: ['main', 'module'],
       alias: {
         src: path.resolve(__dirname, 'src'),
-        config: path.resolve(__dirname, 'config'),
       },
     },
 

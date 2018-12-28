@@ -12,7 +12,7 @@ import defaultAvatar from 'src/assets/images/defaultAvatar.png';
  * Code
  */
 
-// Github token
+// Token OAuth Github
 const token = config.GITHUB_TOKEN || '';
 
 // Configuration Github API
