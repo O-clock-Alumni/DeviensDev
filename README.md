@@ -28,7 +28,7 @@ $ open http://localhost:8000
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING).
+See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## License
 
