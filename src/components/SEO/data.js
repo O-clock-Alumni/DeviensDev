@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * SEO data
+ * Meta data
  * @type {Object}
  */
 const data = {
@@ -119,8 +119,8 @@ const data = {
 };
 
 /**
- * Get SEO data
+ * Get Site Meta data
  * @param  {String} page
  * @return {Object}
  */
-export const getSeo = page => data[page];
+export const getSeoData = page => data[page];

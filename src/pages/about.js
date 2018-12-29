@@ -11,14 +11,14 @@ import AboutUs from 'src/components/AboutUs';
 import Layout from 'src/components/Layout';
 
 // Data SEO
-import { getSeo } from 'src/components/SEO/data';
+import { getSeoData } from 'src/components/SEO/data';
 
 /*
  * Component
  */
-const AboutUsPage = () => (
+const AboutUsPage = ({ location }) => (
   <Layout>
-    <SEO {...getSeo('aboutUs')} />
+    <SEO location={location} {...getSeoData('aboutUs')} />
     <AboutUs />
   </Layout>
 );

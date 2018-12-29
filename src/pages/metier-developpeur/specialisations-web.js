@@ -11,14 +11,14 @@ import Layout from 'src/components/Layout';
 import Specialisation from 'src/components/DeveloperJob/Specialisation';
 
 // Data SEO
-import { getSeo } from 'src/components/SEO/data';
+import { getSeoData } from 'src/components/SEO/data';
 
 /*
  * Component
  */
-const SpecialisationPage = () => (
+const SpecialisationPage = ({ location }) => (
   <Layout>
-    <SEO {...getSeo('metierDevSpecialisation')} />
+    <SEO location={location} {...getSeoData('metierDevSpecialisation')} />
     <Specialisation />
   </Layout>
 );

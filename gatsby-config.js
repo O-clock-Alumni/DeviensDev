@@ -1,3 +1,7 @@
+require(`dotenv`).config({
+  path: '.env',
+});
+
 /**
  * Config Gatsby
  * @api Plugins : https://www.gatsbyjs.org/plugins/

@@ -4,10 +4,6 @@
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 
-// Dotenv is included with Gatsby, no need to install it within the project.
-// eslint-disable-next-line import/no-extraneous-dependencies
-require('dotenv').config();
-
 /*
  * Local Import
  */

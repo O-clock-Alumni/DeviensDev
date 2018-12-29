@@ -13,14 +13,14 @@ import Blog from 'src/components/Blog';
 import Layout from 'src/components/Layout';
 
 // Data SEO
-import { getSeo } from 'src/components/SEO/data';
+import { getSeoData } from 'src/components/SEO/data';
 
 /*
  * Component
  */
-const BlogPage = ({ data }) => (
+const BlogPage = ({ data, location }) => (
   <Layout>
-    <SEO {...getSeo('blog')} />
+    <SEO location={location} {...getSeoData('blog')} />
     <Blog data={data} />
   </Layout>
 );

@@ -24,7 +24,7 @@ import * as Style from './style';
 /*
  * Template
  */
-const ArticleTemplate = ({ data }) => {
+const ArticleTemplate = ({ data, location }) => {
   const { article, moreArticles, site } = data;
   const meta = site.siteMetadata;
 
@@ -39,6 +39,7 @@ const ArticleTemplate = ({ data }) => {
       {/* SEO */}
       <SEO
         type="article"
+        location={location}
         description={article.excerpt}
         title={`${article.frontmatter.title} | ${meta.title}`}
       />

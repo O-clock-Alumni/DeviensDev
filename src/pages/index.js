@@ -13,14 +13,14 @@ import Home from 'src/components/Home';
 import Layout from 'src/components/Layout';
 
 // Data SEO
-import { getSeo } from 'src/components/SEO/data';
+import { getSeoData } from 'src/components/SEO/data';
 
 /*
  * Component
  */
-const IndexPage = ({ data }) => (
+const IndexPage = ({ data, location }) => (
   <Layout>
-    <SEO {...getSeo('home')} />
+    <SEO location={location} {...getSeoData('home')} />
     <Home data={data} />
   </Layout>
 );

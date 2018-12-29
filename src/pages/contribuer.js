@@ -11,14 +11,14 @@ import Layout from 'src/components/Layout';
 import Contribuer from 'src/components/Contribuer';
 
 // Data SEO
-import { getSeo } from 'src/components/SEO/data';
+import { getSeoData } from 'src/components/SEO/data';
 
 /*
  * Component
  */
-const ContribuerPage = () => (
+const ContribuerPage = ({ location }) => (
   <Layout>
-    <SEO {...getSeo('contribuer')} />
+    <SEO location={location} {...getSeoData('contribuer')} />
     <Contribuer />
   </Layout>
 );

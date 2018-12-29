@@ -11,14 +11,14 @@ import Layout from 'src/components/Layout';
 import Formations from 'src/components/Formations';
 
 // Data SEO
-import { getSeo } from 'src/components/SEO/data';
+import { getSeoData } from 'src/components/SEO/data';
 
 /*
  * Component
  */
-const FormationsPage = () => (
+const FormationsPage = ({ location }) => (
   <Layout>
-    <SEO {...getSeo('formations')} />
+    <SEO location={location} {...getSeoData('formations')} />
     <Formations />
   </Layout>
 );

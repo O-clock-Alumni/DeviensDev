@@ -11,14 +11,14 @@ import Layout from 'src/components/Layout';
 import Initiation from 'src/components/Initiation';
 
 // Data SEO
-import { getSeo } from 'src/components/SEO/data';
+import { getSeoData } from 'src/components/SEO/data';
 
 /*
  * Component
  */
-const InitiationPage = () => (
+const InitiationPage = ({ location }) => (
   <Layout>
-    <SEO {...getSeo('mainInitiation')} />
+    <SEO location={location} {...getSeoData('mainInitiation')} />
     <Initiation />
   </Layout>
 );
