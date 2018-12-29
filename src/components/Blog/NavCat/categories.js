@@ -3,8 +3,8 @@
  */
 
 // @TODO -
-// 1. Voir s'il est possible de virer les svg OK
-// 2. Voir si c'est possible de le remplacer par un fill, ou autre.
+// 1. Voir s'il est possible de ne pas garder les svg OK
+// 2. Voir si c'est possible de les remplacer par un fill, ou autre.
 
 import devenirDev from 'src/assets/images/category/DevenirDev.svg';
 import devenirDevOk from 'src/assets/images/category/DevenirDev_ok.svg';

@@ -17,7 +17,7 @@ $ cd DeviensDev
 $ yarn install
 ```
 
-- Launch locally, in `development` mode (Powerd by [Gatsby](https://www.gatsbyjs.org/))
+- Launch locally, in `development` mode (Powered by [Gatsby](https://www.gatsbyjs.org/))
 
 ```shell
 $ yarn start
@@ -28,7 +28,7 @@ $ open http://localhost:8000
 
 ## Contributing
 
-// @TODO
+See [CONTRIBUTING.md](./CONTRIBUTING).
 
 ## License
 
