@@ -25,7 +25,7 @@ const Propose = () => (
       <Item>
         Fork le dépôt{' '}
         <a href={URL_REPO_GITHUB} target="_blank" rel="noopener noreferrer">
-          Github
+          GitHub
         </a>
       </Item>
       {stepsContribute.map(({ id, text }) => (

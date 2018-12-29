@@ -13,7 +13,7 @@ import calendar from 'src/assets/images/contribuer/Calendar.svg';
 export const stepsContribute = [
   // {
   //   id: 1,
-  //   text: 'Tu fork le dépôt $Github$',
+  //   text: 'Tu fork le dépôt $GitHub$',
   // },
   {
     id: 2,

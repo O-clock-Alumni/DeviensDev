@@ -20,7 +20,7 @@ const CorrectArticle = () => (
         Suivre la procédure décrite dans «&nbsp;Tu souhaites proposer un
         article&nbsp;»
       </Item>
-      <Item>Le faire directement depuis l’interface Github</Item>
+      <Item>Le faire directement depuis l’interface GitHub</Item>
     </List>
   </BoxContainer>
 );

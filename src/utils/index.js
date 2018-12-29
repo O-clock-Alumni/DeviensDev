@@ -12,10 +12,10 @@ import defaultAvatar from 'src/assets/images/defaultAvatar.png';
  * Code
  */
 
-// Token OAuth Github
+// Token OAuth GitHub
 const token = config.GITHUB_TOKEN || '';
 
-// Configuration Github API
+// Configuration GitHub API
 const githubApi = new GithubApi({
   headers: {
     'user-agent': 'deviensdev-app',
@@ -23,7 +23,7 @@ const githubApi = new GithubApi({
 });
 
 /**
- * Get data from Github
+ * Get data from GitHub
  * @param  {String} username
  * @return {Object}
  */
@@ -55,7 +55,7 @@ export const getContributor = async username => {
   // eslint-disable-next-line
   const contributor = require(`../../content/authors/${username}`);
 
-  // Get data from Github
+  // Get data from GitHub
   const contributorGithub = await getContributorFromGithub(username);
 
   result = {
