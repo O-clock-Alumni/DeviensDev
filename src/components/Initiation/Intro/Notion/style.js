@@ -23,7 +23,7 @@ export const ArticleTitle = styled.h2({
   color: colors.mainColor,
   fontSize: '1.4em',
   fontWeight: 'bold',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
 
   // Breakpoints

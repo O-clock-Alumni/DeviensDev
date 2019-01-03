@@ -169,7 +169,7 @@ export const Header = styled.h2({
   color: colors.white,
   fontSize: '1.2em',
   fontWeight: weights.bold,
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   height: 50,
   letterSpacing: '.035em',
   lineHeight: '50px',

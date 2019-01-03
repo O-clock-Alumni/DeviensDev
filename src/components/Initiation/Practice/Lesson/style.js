@@ -46,7 +46,7 @@ export const Content = styled.div({
     textTransform: 'uppercase',
     fontSize: '2em',
     width: '100%',
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     letterSpacing: '.06em',
     margin: '1em auto 0.5em',
 
@@ -69,7 +69,7 @@ export const Content = styled.div({
     },
   },
   '& h3': {
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     letterSpacing: '.06em',
     fontSize: '1.5em',
     color: colors.mainColor,
@@ -82,11 +82,12 @@ export const Content = styled.div({
       fontSize: '0.8em',
     },
   },
+
   '& p': {
     textAlign: 'center',
-
     marginBottom: '3em',
     color: colors.greySubtitle,
+
     '& em': {
       fontWeight: 'bold',
     },

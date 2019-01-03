@@ -46,7 +46,7 @@ export const Content = styled.div(
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     textAlign: 'center',
   },
   // ({ isBig }) => ({

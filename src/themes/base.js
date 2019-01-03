@@ -21,7 +21,7 @@ const getDirection = {
 const primaryTitle = {
   fontSize: '2em',
   fontWeight: weights.black,
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   color: colors.mainColor,
   padding: '1em 0 .5em',
   textAlign: 'center',
@@ -43,7 +43,7 @@ const primaryTitle = {
 
 const secondaryTitle = (align = 'left', isUppercase = false) => ({
   fontSize: '2em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.bold,
   letterSpacing: '.06em',
   textAlign: align,
@@ -55,7 +55,7 @@ const boxTitle = {
   color: colors.white,
   fontSize: '.9em',
   fontWeight: weights.semiBold,
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
   lineHeight: '2em',
   minHeight: '2em',
@@ -198,7 +198,7 @@ const primaryButton = {
   display: 'inline-block',
   fontSize: '.9em',
   fontWeight: weights.bold,
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.12em',
   padding: '1em 2em',
   margin: '1em auto',
@@ -268,7 +268,7 @@ const outroContainer = {
 
 const wantMore = {
   fontSize: '1.25em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.bold,
   lineHeight: 1.5,
 };

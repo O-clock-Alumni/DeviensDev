@@ -32,7 +32,7 @@ export const Logo = styled(Link)({
   fontSize: '1.7em',
   fontWeight: weights.bold,
   textTransform: 'uppercase',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
 });
 
@@ -95,7 +95,7 @@ export const Item = styled.li(
       animation: `${keyframes(animation.fadeInTop)} .3s .1s both`,
     },
   {
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     fontWeight: weights.medium,
     letterSpacing: '.04em',
     margin: '.1em 1em',

@@ -101,7 +101,7 @@ export const Title = styled.h3(
   {
     fontSize: '1.5em',
     fontWeight: weights.bold,
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     textAlign: 'center',
   },
   ({ isEven }) => ({
@@ -116,7 +116,7 @@ export const Title = styled.h3(
 export const Figure = styled.span(
   {
     color: colors.mainColor,
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     fontSize: '4em',
     textAlign: 'center',
 

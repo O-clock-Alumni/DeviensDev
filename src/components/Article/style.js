@@ -25,7 +25,7 @@ export const Name = styled.div(
     display: 'flex',
     fontSize: '1.5em',
     fontWeight: weights.bold,
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     marginBottom: '.5em',
     height: '2.6em',
     overflow: 'hidden',
@@ -103,7 +103,7 @@ export const Read = styled.div({
   bottom: 0,
   fontWeight: weights.bold,
   fontSize: '1.5em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
   textShadow: '0 0 5px rgba(0, 0, 0, 0.3)',
 });

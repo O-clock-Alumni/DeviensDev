@@ -17,7 +17,7 @@ export const Nav = styled.div({
   flexDirection: 'row',
   alignContent: 'space-between',
   margin: '1em auto',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: 'bold',
   letterSpacing: '.06em',
   textTransform: 'uppercase',
@@ -35,7 +35,7 @@ export const NavButton = styled(Link)({
   textTransform: 'uppercase',
   fontSize: '3em',
   textAlign: 'center',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
   width: 'fit-content',
 
@@ -55,7 +55,7 @@ export const NavButtonInactive = styled.div({
   textTransform: 'uppercase',
   fontSize: '3em',
   textAlign: 'center',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   width: 'fit-content',
 
   // Breakpoints

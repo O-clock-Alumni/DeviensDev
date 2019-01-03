@@ -15,7 +15,7 @@ import { base, breakpoints, colors, minWidth, weights } from 'src/themes';
  * Style
  */
 export const Container = styled.div({
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   textAlign: 'center',
   marginBottom: '8em',
 

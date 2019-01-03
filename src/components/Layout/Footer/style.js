@@ -15,7 +15,7 @@ import heart from 'src/assets/images/common/heart.svg';
 export const Container = styled.footer({
   alignItems: 'center',
   display: 'flex',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   flexDirection: 'column',
   justifyContent: 'space-around',
   margin: '0 auto',

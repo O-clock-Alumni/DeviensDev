@@ -18,7 +18,7 @@ export const Nav = styled.ul({
   // Breakpoints
   [minWidth(breakpoints.medium)]: {
     display: 'flex',
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     letterSpacing: '.06em',

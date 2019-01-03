@@ -21,7 +21,7 @@ export const Container = styled.div({
 
 export const ShareTitle = styled.div({
   fontSize: '1.2em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.bold,
   marginBottom: '1em',
   textTransform: 'uppercase',

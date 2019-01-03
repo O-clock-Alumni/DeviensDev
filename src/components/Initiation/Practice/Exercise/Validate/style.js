@@ -22,7 +22,7 @@ export const ValidateBtn = styled.button({
   textTransform: 'uppercase',
   fontWeight: weights.bold,
   fontSize: '0.8em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
 
   // Breakpoints

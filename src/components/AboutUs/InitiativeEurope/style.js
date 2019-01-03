@@ -33,7 +33,7 @@ export const Baseline = styled.div({
 
 export const Title = styled.h2({
   fontSize: '1.25em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.bold,
   lineHeight: 1.5,
 });

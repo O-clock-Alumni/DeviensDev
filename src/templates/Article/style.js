@@ -45,7 +45,7 @@ export const Header = styled.div({
 export const Title = styled.h1({
   marginTop: '1em',
   fontSize: '2em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.bold,
   [minWidth(breakpoints.small)]: {
     fontSize: '2.5em',
@@ -68,7 +68,7 @@ export const Content = styled.div({
   // # Titre
   // h1: {
   //   maxWidth: mainSize,
-  //   fontFamily: 'EncodeSansCondensed',
+  //   fontFamily: 'Encode Sans Condensed',
   //   fontWeight: weights.bold,
   //   margin: '1.5em auto',
   //   fontSize: '1.3em',

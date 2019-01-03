@@ -46,7 +46,7 @@ export const Content = styled.div({
     textTransform: 'uppercase',
     fontSize: '2em',
     width: '100%',
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     letterSpacing: '.06em',
     margin: '1em auto 0.5em',
 
@@ -69,7 +69,7 @@ export const Content = styled.div({
     },
   },
   '& h3': {
-    fontFamily: 'EncodeSansCondensed',
+    fontFamily: 'Encode Sans Condensed',
     fontSize: '1.5em',
     letterSpacing: '.06em',
     color: colors.mainColor,
@@ -135,7 +135,7 @@ export const Button = styled.button({
   textTransform: 'uppercase',
   fontWeight: 'bold',
   fontSize: '0.8em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
 });
 

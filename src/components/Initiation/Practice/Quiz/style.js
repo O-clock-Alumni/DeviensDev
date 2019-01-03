@@ -47,7 +47,7 @@ export const Parcours = styled.h1({
  * Header
  */
 export const Header = styled.div({
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
   padding: '2em 1em',
   textAlign: 'center',

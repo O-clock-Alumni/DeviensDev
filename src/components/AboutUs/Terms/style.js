@@ -13,7 +13,7 @@ import { base, breakpoints, colors, minWidth, weights } from 'src/themes';
  */
 export const Container = styled.div({
   background: colors.lightGrey,
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   position: 'relative',
   padding: '3em 1.5em',
 

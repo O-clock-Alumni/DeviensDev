@@ -158,7 +158,7 @@ export const SubTitle = styled.h2({
   marginTop: '2em',
   marginBottom: '1em',
   fontWeight: 'bold',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   letterSpacing: '.06em',
 
   span: {
@@ -170,7 +170,7 @@ export const SubTitle = styled.h2({
 
 export const ArticleFooter = styled.p({
   fontSize: '1.25em',
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.bold,
 
   span: {

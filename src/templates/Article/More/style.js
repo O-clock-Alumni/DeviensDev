@@ -48,7 +48,7 @@ export const ArticlesList = styled.div({
 });
 
 export const Title = styled.h2({
-  fontFamily: 'EncodeSansCondensed',
+  fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.light,
   color: colors.mainColor,
   fontSize: '3.5em',
