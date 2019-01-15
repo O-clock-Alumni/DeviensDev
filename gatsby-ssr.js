@@ -1,7 +1,7 @@
 /*
  * Package Import
  */
-import React, { Fragment } from 'react';
+import React from 'react';
 import { extractCritical } from 'emotion-server';
 import { renderToString } from 'react-dom/server';
 
@@ -21,7 +21,7 @@ export const replaceRenderer = ({
   replaceBodyHTMLString,
   setHeadComponents,
 }) => {
-  const ConnectedBody = () => <Fragment>{bodyComponent}</Fragment>;
+  const ConnectedBody = () => <>{bodyComponent}</>;
 
   const { html, ids, css } = extractCritical(renderToString(<ConnectedBody />));
   const criticalStyle = <style dangerouslySetInnerHTML={{ __html: css }} />;

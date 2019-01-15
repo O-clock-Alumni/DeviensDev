@@ -64,9 +64,6 @@ module.exports = {
       },
     },
 
-    // A document head manager for React.
-    'gatsby-plugin-react-helmet',
-
     // This plugin sets up Google Analytics for you.
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -110,11 +107,14 @@ module.exports = {
       },
     },
 
+    // A document head manager for React.
+    `gatsby-plugin-react-helmet`,
+
     /*
      * This plugin generates a service worker and AppShell html file, so the
      * site works offline and is otherwise resistant to bad networks.
      * Works with almost any site!
      */
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
   ],
 };
