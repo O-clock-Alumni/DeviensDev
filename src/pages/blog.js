@@ -30,6 +30,7 @@ const BlogPage = ({ data, location }) => (
  */
 BlogPage.propTypes = {
   data: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
 };
 
 /*

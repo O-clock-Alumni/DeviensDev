@@ -25,7 +25,9 @@ import * as Style from './style';
  * Template
  */
 const ArticleTemplate = ({ data, location }) => {
+  // Props
   const { article, moreArticles, site } = data;
+  const content = article.frontmatter;
   const meta = site.siteMetadata;
 
   // Configuration Disqus
@@ -41,7 +43,8 @@ const ArticleTemplate = ({ data, location }) => {
         type="article"
         location={location}
         description={article.excerpt}
-        title={`${article.frontmatter.title} | ${meta.title}`}
+        title={`${content.title} | ${meta.title}`}
+        image={content.cover.childImageSharp.fluid.src}
       />
 
       <Layout>
@@ -49,13 +52,10 @@ const ArticleTemplate = ({ data, location }) => {
           {/* Header */}
           <Style.Header>
             {/* Author */}
-            <Author
-              author={article.frontmatter.author}
-              date={article.fields.date}
-            />
+            <Author author={content.author} date={article.fields.date} />
 
             {/* Title */}
-            <Style.Title>{article.frontmatter.title}</Style.Title>
+            <Style.Title>{content.title}</Style.Title>
             <Style.Publish>Le {article.fields.date}</Style.Publish>
             {/*
               TODO: rajouter catégorie + lien quand on aura pas mal de contenus
@@ -72,7 +72,7 @@ const ArticleTemplate = ({ data, location }) => {
             <Share
               siteUrl={meta.siteUrl}
               slug={article.fields.slug}
-              title={article.frontmatter.title}
+              title={content.title}
             />
           </Style.Content>
 
@@ -95,6 +95,7 @@ const ArticleTemplate = ({ data, location }) => {
  */
 ArticleTemplate.propTypes = {
   data: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
 };
 
 /*
@@ -114,6 +115,13 @@ export const query = graphql`
       frontmatter {
         title
         author
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 1040) {
+              src
+            }
+          }
+        }
       }
       fields {
         date(formatString: "DD MMMM YYYY", locale: "fr")

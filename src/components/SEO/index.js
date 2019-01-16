@@ -42,14 +42,14 @@ const SEO = ({ description, image, location, title, type }) => (
 
         <meta property="og:type" content={type} />
         <meta property="og:title" content={title} />
-        <meta property="og:image" content={image} />
         <meta property="og:description" content={description} />
+        {image && <meta property="og:image" content={`${siteUrl}${image}`} />}
 
         {/* Twitter tags */}
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
-        <meta name="twitter:image" content={image} />
         <meta name="twitter:description" content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        {image && <meta name="twitter:image" content={`${siteUrl}${image}`} />}
 
         {/* Links */}
         <link rel="canonical" href={`${siteUrl}${location.pathname}`} />
@@ -64,7 +64,9 @@ const SEO = ({ description, image, location, title, type }) => (
 SEO.propTypes = {
   description: PropTypes.string.isRequired,
   image: PropTypes.string,
-  location: PropTypes.object.isRequired,
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+  }).isRequired,
   title: PropTypes.string.isRequired,
   type: PropTypes.string,
 };

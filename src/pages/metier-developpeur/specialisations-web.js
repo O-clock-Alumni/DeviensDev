@@ -2,6 +2,7 @@
  * Package Import
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /*
  * Local Import
@@ -22,6 +23,13 @@ const SpecialisationPage = ({ location }) => (
     <Specialisation />
   </Layout>
 );
+
+/*
+ * PropTypes
+ */
+SpecialisationPage.propTypes = {
+  location: PropTypes.object.isRequired,
+};
 
 /*
  * Export

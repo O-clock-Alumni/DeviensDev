@@ -7,3 +7,7 @@
 
 # Logs
 /*.log
+
+
+# Code
+/src/components/SEO/data.js

@@ -2,6 +2,7 @@
  * Package Import
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /*
  * Local Import
@@ -22,6 +23,13 @@ const FormationsPage = ({ location }) => (
     <Formations />
   </Layout>
 );
+
+/*
+ * PropTypes
+ */
+FormationsPage.propTypes = {
+  location: PropTypes.object.isRequired,
+};
 
 /*
  * Export

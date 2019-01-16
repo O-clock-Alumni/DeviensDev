@@ -2,6 +2,7 @@
  * Package Import
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /*
  * Local Import
@@ -22,6 +23,13 @@ const ContribuerPage = ({ location }) => (
     <Contribuer />
   </Layout>
 );
+
+/*
+ * PropTypes
+ */
+ContribuerPage.propTypes = {
+  location: PropTypes.object.isRequired,
+};
 
 /*
  * Export

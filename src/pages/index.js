@@ -30,6 +30,7 @@ const IndexPage = ({ data, location }) => (
  */
 IndexPage.propTypes = {
   data: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
 };
 
 /*
