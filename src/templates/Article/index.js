@@ -42,8 +42,8 @@ const ArticleTemplate = ({ data, location }) => {
       <SEO
         type="article"
         location={location}
+        title={content.title}
         description={article.excerpt}
-        title={`${content.title} | ${meta.title}`}
         image={content.cover.childImageSharp.fluid.src}
       />
 
