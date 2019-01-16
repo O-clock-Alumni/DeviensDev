@@ -116,5 +116,7 @@ module.exports = {
      * Works with almost any site!
      */
     // 'gatsby-plugin-offline',
+
+    'gatsby-plugin-remove-serviceworker',
   ],
 };
