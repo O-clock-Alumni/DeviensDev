@@ -18,7 +18,7 @@ const Lesson = path.resolve('./src/templates/Initiation/Lesson/index.js');
 const Quiz = path.resolve('./src/templates/Initiation/Quiz/index.js');
 const Exercise = path.resolve('./src/templates/Initiation/Exercise/index.js');
 
-// Parse date information out of blog post filename.
+// Parse date information out of blog post fileName.
 const POST_FILENAME_REGEX = /([0-9]+)-([0-9]+)-([0-9]+)_(.+)\/([a-z]+)\.md$/;
 
 /**
@@ -88,15 +88,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const { relativePath } = getNode(node.parent);
 
     if (relativePath.includes('blog')) {
+      /*
+       * Blog posts don't have embedded permalinks.
+       * Their slugs follow a pattern: /blog/<year>/<month>/<day>/<slug>
+       */
       const match = POST_FILENAME_REGEX.exec(relativePath);
-
-      // Get data that we need
       const year = match[1];
       const month = match[2];
       const day = match[3];
-      const slugName = node.frontmatter.slug;
+      const fileName = match[4];
 
-      // New format slug
+      /*
+       * If the doc has a `slug` field, override the default slug
+       * Otherwise, get the default slug, which is define in fileName
+       */
+      const slugName = node.frontmatter.slug ? node.frontmatter.slug : fileName;
+
+      // New slug
       slug = `/blog/${year}/${month}/${day}/${slugName}`;
 
       const date = new Date(year, month - 1, day);
@@ -108,11 +116,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         value: date.toJSON(),
       });
     }
+
     // Used to generate `slug` to view this content.
-    actions.createNodeField({ name: `slug`, node, value: slug });
+    actions.createNodeField({
+      name: `slug`,
+      node,
+      value: slug,
+    });
 
     // Used to generate a GitHub edit link.
-    actions.createNodeField({ name: 'path', node, value: relativePath });
+    actions.createNodeField({
+      name: 'path',
+      node,
+      value: relativePath,
+    });
   }
 };
 
@@ -143,14 +160,13 @@ exports.createPages = ({ actions, graphql }) =>
           }
         }
       `).then(result => {
-        // pagination
-
+        // If we have errors
         if (result.errors) {
           reject(result.errors);
         }
 
-        // Create Blog posts pages
         result.data.allMarkdownRemark.edges.forEach(edge => {
+          // Create Blog posts pages
           if (edge.node.fields.slug.includes('blog')) {
             actions.createPage({
               path: edge.node.fields.slug,
