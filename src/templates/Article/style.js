@@ -76,8 +76,17 @@ export const Content = styled.div({
   //   color: colors.black,
   // },
 
-  // ## Sous-titre
+  // ## Titre de niveau 2
   h2: {
+    maxWidth: mainSize,
+    margin: 'auto',
+    marginTop: '1em',
+    fontWeight: weights.bold,
+    fontSize: '1.5em',
+  },
+
+  // ### Titre de niveau 3
+  h3: {
     maxWidth: mainSize,
     margin: 'auto',
     marginTop: '1em',
@@ -93,12 +102,17 @@ export const Content = styled.div({
 
     // **Gras**
     strong: {
-      fontWeight: weights.medium,
+      fontWeight: weights.semiBold,
       color: colors.black,
+    },
+
+    // _Italique_
+    em: {
+      fontStyle: 'italic',
     },
   },
 
-  // Citation
+  // > Citation
   blockquote: {
     // Container
     background: colors.mainColor,
@@ -179,9 +193,9 @@ export const Content = styled.div({
   },
 
   // Lien
-  // a: {
-  //   background: utils.underline(colors.darkGrey),
-  // },
+  'a:not(.gatsby-resp-image-link)': {
+    ...base.link,
+  },
 });
 
 /*

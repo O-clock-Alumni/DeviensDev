@@ -2,6 +2,7 @@
  * Package Import
  */
 import React from 'react';
+// import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 
 /*
@@ -9,34 +10,25 @@ import PropTypes from 'prop-types';
  */
 import defaultArticle from 'src/assets/images/defaultArticle.jpeg';
 import Author from 'src/components/Author';
-import {
-  Desc,
-  Name,
-  Image,
-  Container,
-  Category,
-  Link,
-  ContainerImage,
-  Read,
-} from './style';
+import * as Style from './style';
 
 /*
  * Component
  */
-const Article = ({ article, ...props }) => (
-  <Container isBig={props.isBig}>
-    <Link to={article.fields.slug}>
+const PreviewArticle = ({ article, ...props }) => (
+  <Style.Container isBig={props.isBig}>
+    <Style.Link to={article.fields.slug}>
       {/* Name */}
-      <Name to={article.fields.slug} isBig={props.isBig}>
+      <Style.Name to={article.fields.slug} isBig={props.isBig}>
         {article.frontmatter.title}
-      </Name>
+      </Style.Name>
 
       {/* Description */}
-      {props.isBig && <Desc>{article.excerpt}</Desc>}
+      {props.isBig && <Style.Desc>{article.excerpt}</Style.Desc>}
 
       {/* Image */}
-      <ContainerImage>
-        <Image
+      <Style.ContainerImage>
+        <Style.Image
           src={
             // @TODO
             article.frontmatter.cover
@@ -45,33 +37,33 @@ const Article = ({ article, ...props }) => (
           }
           isBig={props.isBig}
         />
-        <Read>Lire l’article</Read>
-      </ContainerImage>
+        <Style.Read>Lire l’article</Style.Read>
+      </Style.ContainerImage>
 
       {/* Category */}
       {article.frontmatter.category && (
-        <Category>#{article.frontmatter.category}</Category>
+        <Style.Category>#{article.frontmatter.category}</Style.Category>
       )}
 
       {/* Author */}
       <Author author={article.frontmatter.author} isBig={props.isBig} />
-    </Link>
-  </Container>
+    </Style.Link>
+  </Style.Container>
 );
 
 /*
  * PropTypes
  */
-Article.propTypes = {
+PreviewArticle.propTypes = {
   article: PropTypes.object.isRequired,
   isBig: PropTypes.bool,
 };
 
-Article.defaultProps = {
+PreviewArticle.defaultProps = {
   isBig: false,
 };
 
 /*
  * Export
  */
-export default Article;
+export default PreviewArticle;

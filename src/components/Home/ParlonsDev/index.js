@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 /*
  * Local Import
  */
-import Article from 'src/components/Article';
 import { breakpoints } from 'src/themes';
+import PreviewArticle from 'src/components/PreviewArticle';
 import { Articles, MoreLink, Container, More, Title, Text } from './style';
 
 /*
@@ -30,16 +30,13 @@ export default class ParlonsDev extends React.Component {
   };
 
   /*
-   * componentDidMount
+   * LifeCycles
    */
   componentDidMount() {
     window.addEventListener('resize', this.onMobile);
     this.onMobile();
   }
 
-  /*
-   * componentWillUnmount
-   */
   componentWillUnmount() {
     window.removeEventListener('resize', this.onMobile);
   }
@@ -47,7 +44,6 @@ export default class ParlonsDev extends React.Component {
   /*
    * Actions
    */
-  // @TODO à rajouter au Context
   onMobile = () => {
     this.setState({ isMobile: window.innerWidth < breakpoints.medium });
   };
@@ -57,11 +53,12 @@ export default class ParlonsDev extends React.Component {
    */
   render() {
     const { data } = this.props;
-    const { isMobile } = this.state;
     const { priorityArticles } = data;
 
+    // The last article, or the article which is in priority
     const lastArticle = priorityArticles || data.articles.edges[0].node;
 
+    // The last next articles
     const articles = data.articles.edges.filter(
       article => article.node.id !== lastArticle.id,
     );
@@ -75,15 +72,20 @@ export default class ParlonsDev extends React.Component {
           ou&nbsp;qui&nbsp;envisagent une reconversion au métier de développeur.
         </Text>
 
-        {/* 7 last Articles */}
         <Articles>
-          {/* The last Article */}
-          <Article article={lastArticle} isBig={!isMobile} />
+          {/* The last article, or the article which is in priority */}
+          {lastArticle && (
+            <PreviewArticle
+              article={lastArticle}
+              isBig={!this.state.isMobile}
+            />
+          )}
 
+          {/* The last next articles */}
           {articles.length !== 0 &&
             articles.map(
               ({ node }, index) =>
-                index < 6 && <Article key={node.id} article={node} />,
+                index < 6 && <PreviewArticle key={node.id} article={node} />,
             )}
         </Articles>
 

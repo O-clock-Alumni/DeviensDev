@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 /*
  * Local Import
  */
-import Article from 'src/components/Article';
+import PreviewArticle from 'src/components/PreviewArticle';
 import { Container, ArticlesList, Title } from './style';
 
 /*
@@ -19,7 +19,7 @@ const MoreArticle = ({ data }) => (
 
     <ArticlesList>
       {data.edges.map(({ node }) => (
-        <Article key={node.id} article={node} />
+        <PreviewArticle key={node.id} article={node} />
       ))}
     </ArticlesList>
   </Container>

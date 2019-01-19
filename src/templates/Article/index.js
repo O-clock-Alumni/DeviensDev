@@ -44,7 +44,7 @@ const ArticleTemplate = ({ data, location }) => {
         location={location}
         title={content.title}
         description={article.excerpt}
-        image={content.cover.childImageSharp.fluid.src}
+        image={content.cover && content.cover.childImageSharp.fluid.src}
       />
 
       <Layout>
@@ -139,6 +139,13 @@ export const query = graphql`
           frontmatter {
             title
             author
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 1040) {
+                  src
+                }
+              }
+            }
           }
           fields {
             date(formatString: "DD MMM YYYY", locale: "fr")
