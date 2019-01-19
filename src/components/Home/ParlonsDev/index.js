@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 /*
  * Local Import
  */
-import Article from 'src/components/Article';
 import { breakpoints } from 'src/themes';
+import PreviewArticle from 'src/components/PreviewArticle';
 import { Articles, MoreLink, Container, More, Title, Text } from './style';
 
 /*
@@ -75,14 +75,17 @@ export default class ParlonsDev extends React.Component {
         <Articles>
           {/* The last article, or the article which is in priority */}
           {lastArticle && (
-            <Article article={lastArticle} isBig={!this.state.isMobile} />
+            <PreviewArticle
+              article={lastArticle}
+              isBig={!this.state.isMobile}
+            />
           )}
 
           {/* The last next articles */}
           {articles.length !== 0 &&
             articles.map(
               ({ node }, index) =>
-                index < 6 && <Article key={node.id} article={node} />,
+                index < 6 && <PreviewArticle key={node.id} article={node} />,
             )}
         </Articles>
 

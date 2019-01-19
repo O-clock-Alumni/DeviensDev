@@ -15,7 +15,7 @@ import * as Style from './style';
 /*
  * Component
  */
-const Article = ({ article, ...props }) => (
+const PreviewArticle = ({ article, ...props }) => (
   <Style.Container isBig={props.isBig}>
     <Style.Link to={article.fields.slug}>
       {/* Name */}
@@ -54,16 +54,16 @@ const Article = ({ article, ...props }) => (
 /*
  * PropTypes
  */
-Article.propTypes = {
+PreviewArticle.propTypes = {
   article: PropTypes.object.isRequired,
   isBig: PropTypes.bool,
 };
 
-Article.defaultProps = {
+PreviewArticle.defaultProps = {
   isBig: false,
 };
 
 /*
  * Export
  */
-export default Article;
+export default PreviewArticle;

@@ -7,21 +7,14 @@ import PropTypes from 'prop-types';
 /*
  * Local Import
  */
+import PreviewArticle from 'src/components/PreviewArticle';
 import ContributeBtn from 'src/components/ContributeBtn';
-import Article from 'src/components/Article';
 import Pagination from './Pagination';
-import Intro from './Intro';
 // import NavCat from './NavCat';
+import Intro from './Intro';
 
 // Styles
-import {
-  Container,
-  Content,
-  Lastest,
-  Oldest,
-  Articles,
-  ArticlesContainer,
-} from './style';
+import * as Style from './style';
 
 /*
  * Component
@@ -86,23 +79,23 @@ export default class Blog extends React.Component {
     const articlePage = articles.slice(9 * (page - 1), 9 * page);
 
     return (
-      <Container>
+      <Style.Container>
         {/* Content */}
-        <Content>
+        <Style.Content>
           <Intro />
-          <ArticlesContainer>
-            <Articles>
+          <Style.ArticlesContainer>
+            <Style.Articles>
               {/* Lastest article */}
-              <Lastest>
-                <Article article={lastArticle.node} isBig />
-              </Lastest>
+              <Style.Lastest>
+                <PreviewArticle article={lastArticle.node} isBig />
+              </Style.Lastest>
 
               {/* Oldest articles */}
-              <Oldest>
+              <Style.Oldest>
                 {articlePage.map(({ node }) => (
-                  <Article key={node.id} article={node} />
+                  <PreviewArticle key={node.id} article={node} />
                 ))}
-              </Oldest>
+              </Style.Oldest>
 
               {/* Pagination */}
               {articles.length > 9 && (
@@ -112,9 +105,9 @@ export default class Blog extends React.Component {
                   handleChange={this.changePage}
                 />
               )}
-            </Articles>
-          </ArticlesContainer>
-        </Content>
+            </Style.Articles>
+          </Style.ArticlesContainer>
+        </Style.Content>
 
         {/* Contribute */}
         <ContributeBtn />
@@ -122,7 +115,7 @@ export default class Blog extends React.Component {
         {/* Filter by category */}
         {/* @TODO */}
         {/* <NavCat category={category} switchCategory={this.switchCategory} /> */}
-      </Container>
+      </Style.Container>
     );
   }
 }
