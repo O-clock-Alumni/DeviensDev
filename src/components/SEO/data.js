@@ -1,5 +1,10 @@
 /* eslint-disable max-len */
 
+/*
+ * Local Import
+ */
+import ogHome from 'src/assets/images/graph/home/og-home.png';
+
 /**
  * Meta data
  * @type {Object}
@@ -13,6 +18,7 @@ const data = {
   home: {
     title: 'DeviensDev le site pour découvrir les métiers du développement',
     description: "Tu veux devenir développeur ? Fiches métiers, initiation au code, formations, DeviensDev te donne toutes les infos pour t'informer sur le développement.",
+    image: ogHome,
   },
 
   // Blog • Parlons Dev
@@ -110,6 +116,6 @@ const data = {
 /**
  * Get Site Meta data
  * @param  {String} page
- * @return {Object}
+ * @return {Object} { title, description, image }
  */
 export const getSeoData = page => data[page];
