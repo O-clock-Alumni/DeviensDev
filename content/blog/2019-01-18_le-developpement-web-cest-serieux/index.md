@@ -2,7 +2,10 @@
 title: 'Le développement web, c’est sérieux.'
 author: 'alexandrebourdeaudhui'
 category: 'vécu'
+cover: ./cover.jpg
 ---
+
+![Photo d'illustration](./cover.jpg)
 
 Chez O’clock, on nous fait souvent la remarque qu’il est impossible de devenir développeur en quelques mois. Ici, on cite la question avec des formes qui n’étaient pas originellement présentes, vous vous doutez bien. Même si nous sommes sûrs de notre fait et de notre démarche, nous sommes constamment pétris de doute.
 
@@ -27,6 +30,8 @@ Je sais ce que vous allez dire « C’est anecdotique » et qu’en réalité, c
 Tout est une question de mot. Et de marketing. « Deviens développeur en X jours ! » c’est limpide. On comprend qu’en une poignée de jours, nous allons acquérir toutes les compétences, le savoir-faire et le savoir-être pour se définir en tant que développeur. Ça fait carrément rêver.
 Mais le principe du rêve, c’est que ce n’est pas la réalité. Que se passe t-il ? Le stagiaire est séduit par la promesse, il signe et au bout d’une semaine, il se rend compte avec effroi qu’à part poser quelques balises HTML et faire joujou avec un éditeur de texte : il ne sait pas faire grand chose. Il sait juste un peu coder. En gros, il bidouille un peu en HTML et a déjà touché au CSS. C’est tout.
 
+![Développeur Web](./jesuisdev.png)
+
 Ça parait évident mais il vaut mieux le répéter : on ne devient pas développeur en quelques jours. On s’initie au code. Et c’est déjà bien. Mais le verbe s’initier, c’est tellement moins vendeur que “devenir”…
 
 Avoir déjà codé ne fait pas de toi un développeur. Moi par exemple, j’adore faire de la pâtisserie. Quand j’ai deux heures de libre, je fais des cookies. Je tiens également à préciser que mes cookies sont bons, très bons même et ils font la joie de mes beaux-parents ainsi que de mon nutritionniste qui s’assure un chiffre d’affaire constant grâce à ma maitrise du beurre. Bref, mes cookies pourraient être les meilleurs du monde, que je ne me considérerais pas comme pâtissier. Non, je suis juste un mec qui fait des cookies et qui s’embarque dans des métaphores trop longues.
@@ -36,6 +41,8 @@ Savoir coder, c’est savoir faire des gâteaux. Savoir faire des gâteaux, ne f
 ### Savoir que l’on ne sait pas, c’est déjà savoir.
 
 Pourquoi ce parallèle avec les cookies ? Parce que vous savez ce que sont des cookies. Vous en avez déjà vu, vous en avez déjà mangé. Bon, si vous n’en avez jamais fait, vous allez sûrement faire n’importe quoi la première fois. Vous allez vous tromper sur les quantités, mettre les éléments dans le désordre, les cuire n’importe comment. A la fin, ce sera peut-être même pas comestible. Mais le concept de cookie ne vous échappera pas. Vous savez ce qu’est « faire des cookies ».
+
+![Cookie](./cookie.jpg)
 
 Mieux, vous savez très bien que vous ne savez pas faire des cookies. Vous savez que vous allez faire un truc dégueu, ou cramé, ou les deux. Mais, vous arrivez à mesurer la difficulté, et à identifier une marge de progression.
 
@@ -92,6 +99,9 @@ A ce sujet là, nous saluons l’aventure de Paul Conge, un journaliste qui s’
 
 On n’en demande pas tant, heureusement ! Mais voilà un journaliste qui a surement compris tout l’enjeu : prendre ce métier au sérieux, c’est prendre l’avenir de notre société au sérieux !
 
-Attention, on n’est pas entrain de dire que les médias relaient n’importe quoi et qu’ils feraient mieux de parler de nous ! Oh que non. D’ailleurs, il ne s’agit pas que de nous. Et bon nombres d’écoles de qualité commencent à se faire un nom, comme la [Wild Code School](http://www.wildcodeschool.fr/) ou [Simplon](http://simplon.co/). Nous en sommes très heureux.
+Attention, on n’est pas entrain de dire que les médias relaient n’importe quoi et qu’ils feraient mieux de parler de nous ! Oh que non. D’ailleurs, il ne s’agit pas que de nous. Et bon nombres d’écoles de qualité commencent à se faire un nom, comme la [Wild Code School](https://www.wildcodeschool.fr/) ou [Simplon](https://simplon.co/). Nous en sommes très heureux.
 
 **_Nous aimerions seulement que toute l’attention soit portée sur l’étudiant et que l’on puisse l’aiguiller vers le pragmatisme, au lieu du sensationnel. La réalité est moins sexy._**
+
+
+_Photo by Kobu Agency_
