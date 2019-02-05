@@ -9,7 +9,7 @@ cover: ./cover.jpg
 
 Chez O’clock, on nous fait souvent la remarque qu’il est impossible de devenir développeur en quelques mois. Ici, on cite la question avec des formes qui n’étaient pas originellement présentes, vous vous doutez bien. Même si nous sommes sûrs de notre fait et de notre démarche, nous sommes constamment pétris de doute.
 
-Dès l’élaboration de nos différents programmes pédagogiques, nous nous posions énormément de questions : comment présenter au mieux nos formations pour éviter de basculer dans le “bullshit” ? Comment rester sincère, en retranscrivant les objectifs de nos programmes pédagogiques ? Comment ne pas tomber dans le cliché de l’ultra banalisme qui consiste à dire que tout le monde peut devenir dev en trois minutes douche comprise, sans pour autant décourager ceux qui voudraient se lancer ? Entre la difficulté réelle qu’est l’apprentissage de développement web que les professionnels du métier ont tendance à exacerber et le discours de l’hyper accessibilité qui confine au marchandage de tapis, la nuance est fine.
+Dès l’élaboration de nos différents programmes pédagogiques, nous nous posions énormément de questions : comment présenter au mieux nos formations pour éviter de basculer dans le “bullshit” ? Comment rester sincère, en retranscrivant les objectifs de nos programmes pédagogiques ? Comment ne pas tomber dans le cliché de l’ultra banalisme qui consiste à dire que tout le monde peut devenir dev en trois minutes douche comprise, sans pour autant décourager ceux qui voudraient se lancer ? Entre la difficulté réelle qu’est l’apprentissage du développement web que les professionnels du métier ont tendance à exacerber et le discours de l’hyper accessibilité qui confine au marchandage de tapis, la nuance est fine.
 
 Mais le simple fait que nous nous posions la questions pour trouver un ton juste était une première victoire. Nous ne voulions pas léser les étudiants avec une fausse promesse. Force est de constater que les doutes dont nous étions pétris ne sont pas l’apanage de certaines formations qui n’ont de formations que le nom et autre cellules d’apprentissage du code qui n’hésite pas à marteler d’une typo imposante : devenez développeur en 1 semaine pour gagner une tonne de thunes.
 
@@ -34,7 +34,7 @@ Mais le principe du rêve, c’est que ce n’est pas la réalité. Que se passe
 
 Ça parait évident mais il vaut mieux le répéter : on ne devient pas développeur en quelques jours. On s’initie au code. Et c’est déjà bien. Mais le verbe s’initier, c’est tellement moins vendeur que “devenir”…
 
-Avoir déjà codé ne fait pas de toi un développeur. Moi par exemple, j’adore faire de la pâtisserie. Quand j’ai deux heures de libre, je fais des cookies. Je tiens également à préciser que mes cookies sont bons, très bons même et ils font la joie de mes beaux-parents ainsi que de mon nutritionniste qui s’assure un chiffre d’affaire constant grâce à ma maitrise du beurre. Bref, mes cookies pourraient être les meilleurs du monde, que je ne me considérerais pas comme pâtissier. Non, je suis juste un mec qui fait des cookies et qui s’embarque dans des métaphores trop longues.
+Avoir déjà codé ne fait pas de toi un développeur. Moi par exemple, j’adore faire de la pâtisserie. Quand j’ai deux heures de libre, je fais des cookies. Je tiens également à préciser que mes cookies sont bons, très bons même et ils font la joie de mes beaux-parents ainsi que de mon nutritionniste qui s’assure un chiffre d’affaire constant grâce à ma maîtrise du beurre. Bref, mes cookies pourraient être les meilleurs du monde, que je ne me considérerais pas comme pâtissier. Non, je suis juste un mec qui fait des cookies et qui s’embarque dans des métaphores trop longues.
 
 Savoir coder, c’est savoir faire des gâteaux. Savoir faire des gâteaux, ne fait pas de toi un pâtissier. Savoir poser des lignes de code, ne fait pas de toi un développeur.
 
@@ -56,7 +56,7 @@ Non, on ne devient pas développeur en quelques jours. Ceux qui ont pondu le slo
 
 Chez O’clock, on propose [une formation de 6 mois](https://oclock.io/programme). En 6 mois, à temps-plein, on apprend énormément de choses. Au bout de 6 mois, on acquiert beaucoup de compétences. Ça nous laisse beaucoup de temps pour creuser les notions. On ne fait pas simplement du code, on arrive à comprendre à quoi sert notre code. On développe des compétences, des réflexes et on se professionnalise.
 
-Seulement, on refuse de mentir aux étudiants. On ne le cache pas, la formation est compliquée et oui : « Vous allez en baver ». Et 5 mois, à ne faire que ça, matin et soir, ne sera pas de trop, croyez-nous !
+Seulement, on refuse de mentir aux étudiants. On ne le cache pas, la formation est compliquée et oui : « Vous allez en baver ». Et 6 mois, à ne faire que ça, matin et soir, ne sera pas de trop, croyez-nous !
 
 Le métier de développeur est exigeant et demande beaucoup d’attention. Il appelle les étudiants à faire preuve d’autonomie, et de débrouillardise. Des compétences que le meilleur des formateurs ne saurait transmettre. Ce métier est ouvert à tous les profils, c’est vrai. Mais il n’est pas destiné à tout le monde. Et nous refusons de maquiller cet état de fait.
 
@@ -70,7 +70,7 @@ Si l’on rêve d’une société numérique, il va falloir commencer à s’int
 
 ### Développeur, c’est pas un métier ça, si ?
 
-Le métier de développeur a le vent en poupe. « Un métier d’avenir », « Un secteur qui recrute », « Un job cool » peut-on lire partout. Et ce n’est pas faux. La société devenant numérique, nous avons besoin de développeurs pour la construire. Ce rôle de « bâtisseur du monde de demain » étant extrêmement valorisant, le développeur à la cote.
+Le métier de développeur a le vent en poupe. « Un métier d’avenir », « Un secteur qui recrute », « Un job cool » peut-on lire partout. Et ce n’est pas faux. La société devenant numérique, nous avons besoin de développeurs pour la construire. Ce rôle de « bâtisseur du monde de demain » étant extrêmement valorisant, le développeur a la côte.
 
 Aujourd’hui, tout le monde veut être développeur ! Et personnellement, je me réjouis que de plus en plus de personnes puissent se passionner pour ce métier mais nous reconnaissons également que beaucoup de candidats sont très mal informés quant aux exigences qu’implique ce domaine.
 
@@ -91,7 +91,7 @@ Combien de temps devons nous mobiliser pour apprendre le métier de développeur
 
 Aujourd’hui, il est crédible de pouvoir clamer au monde : « On vous forme au métier de développeur en 60h, repas compris ! » Si cette offre discrédite les développeurs et désinforme les étudiants déboussolés, elle permet aussi de faire un amalgame entre les vraies écoles web et ces formations d’appoint.
 
-Le plus triste, c’est que ce type de « formation » arrive à se trouver une place dans les médias. On peut le comprendre. Une offre pareil, c’est suffisamment insolite pour être partagé. Même si c’est irréalisable, ça fait du clic.
+Le plus triste, c’est que ce type de « formation » arrive à se trouver une place dans les médias. On peut le comprendre. Une offre pareille, c’est suffisamment insolite pour être partagée. Même si c’est irréalisable, ça fait du clic.
 
 Les médias ont un énorme rôle à jouer dans l’émergence de ce secteur. Il ne s’agit pas seulement de relayer les différentes offres de formations, il s’agit surtout de faire de la pédagogie sur ce qu’est le métier de développeur, sur le travail qu’il demande et évidemment sur les possibilités d’évolutions qui sont offertes aux futurs étudiants.
 
@@ -99,7 +99,7 @@ A ce sujet là, nous saluons l’aventure de Paul Conge, un journaliste qui s’
 
 On n’en demande pas tant, heureusement ! Mais voilà un journaliste qui a surement compris tout l’enjeu : prendre ce métier au sérieux, c’est prendre l’avenir de notre société au sérieux !
 
-Attention, on n’est pas entrain de dire que les médias relaient n’importe quoi et qu’ils feraient mieux de parler de nous ! Oh que non. D’ailleurs, il ne s’agit pas que de nous. Et bon nombres d’écoles de qualité commencent à se faire un nom, comme la [Wild Code School](https://www.wildcodeschool.fr/) ou [Simplon](https://simplon.co/). Nous en sommes très heureux.
+Attention, on n’est pas en train de dire que les médias relaient n’importe quoi et qu’ils feraient mieux de parler de nous ! Oh que non. D’ailleurs, il ne s’agit pas que de nous. Et bon nombres d’écoles de qualité commencent à se faire un nom, comme la [Wild Code School](https://www.wildcodeschool.fr/) ou [Simplon](https://simplon.co/). Nous en sommes très heureux.
 
 **_Nous aimerions seulement que toute l’attention soit portée sur l’étudiant et que l’on puisse l’aiguiller vers le pragmatisme, au lieu du sensationnel. La réalité est moins sexy._**
 
