@@ -2,7 +2,6 @@
  * Package Import
  */
 import React from 'react';
-// import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 
 /*
@@ -10,46 +9,42 @@ import PropTypes from 'prop-types';
  */
 import defaultArticle from 'src/assets/images/defaultArticle.jpeg';
 import Author from 'src/components/Author';
-import * as Style from './style';
+import * as S from './style';
 
 /*
  * Component
  */
-const PreviewArticle = ({ article, ...props }) => (
-  <Style.Container isBig={props.isBig}>
-    <Style.Link to={article.fields.slug}>
-      {/* Name */}
-      <Style.Name to={article.fields.slug} isBig={props.isBig}>
-        {article.frontmatter.title}
-      </Style.Name>
+const PreviewArticle = ({ article, isBig, fromMoreArticle }) => {
+  // Get source of the image
+  const srcImage = article.frontmatter.cover
+    ? article.frontmatter.cover.childImageSharp.fluid.src
+    : defaultArticle;
 
-      {/* Description */}
-      {props.isBig && <Style.Desc>{article.excerpt}</Style.Desc>}
+  // View
+  return (
+    <S.Container fromMoreArticle={fromMoreArticle} isBig={isBig}>
+      <S.Link to={article.fields.slug}>
+        {/* Description */}
+        <S.Title isBig={isBig}>{article.frontmatter.title}</S.Title>
+        {isBig && <S.Text>{article.excerpt}</S.Text>}
 
-      {/* Image */}
-      <Style.ContainerImage>
-        <Style.Image
-          src={
-            // @TODO
-            article.frontmatter.cover
-              ? article.frontmatter.cover.childImageSharp.fluid.src
-              : defaultArticle
-          }
-          isBig={props.isBig}
-        />
-        <Style.Read>Lire l’article</Style.Read>
-      </Style.ContainerImage>
+        {/* Image */}
+        <S.ContainerImage>
+          <S.Image isBig={isBig} srcImage={srcImage} />
+          <S.Read>Lire l’article</S.Read>
+        </S.ContainerImage>
 
-      {/* Category */}
-      {article.frontmatter.category && (
-        <Style.Category>#{article.frontmatter.category}</Style.Category>
-      )}
+        {/* Category */}
+        {article.frontmatter.category && (
+          <S.Category>#{article.frontmatter.category}</S.Category>
+        )}
 
-      {/* Author */}
-      <Author author={article.frontmatter.author} isBig={props.isBig} />
-    </Style.Link>
-  </Style.Container>
-);
+        {/* Author */}
+        <Author author={article.frontmatter.author} isBig={isBig} />
+      </S.Link>
+    </S.Container>
+  );
+};
 
 /*
  * PropTypes
@@ -57,10 +52,12 @@ const PreviewArticle = ({ article, ...props }) => (
 PreviewArticle.propTypes = {
   article: PropTypes.object.isRequired,
   isBig: PropTypes.bool,
+  fromMoreArticle: PropTypes.bool,
 };
 
 PreviewArticle.defaultProps = {
   isBig: false,
+  fromMoreArticle: false,
 };
 
 /*

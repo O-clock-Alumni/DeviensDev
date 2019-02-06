@@ -19,7 +19,7 @@ const MoreArticle = ({ data }) => (
 
     <ArticlesList>
       {data.edges.map(({ node }) => (
-        <PreviewArticle key={node.id} article={node} />
+        <PreviewArticle key={node.id} article={node} fromMoreArticle />
       ))}
     </ArticlesList>
   </Container>

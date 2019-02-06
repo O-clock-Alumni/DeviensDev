@@ -7,19 +7,27 @@ import styled from 'react-emotion';
 /*
  * Local Import
  */
-import {
-  base,
-  breakpoints,
-  colors,
-  minWidth,
-  maxWidth,
-  weights,
-} from 'src/themes';
+import { breakpoints, colors, minWidth, maxWidth, weights } from 'src/themes';
+
+/**
+ * Create 3D Text
+ * @param  {Number} [size=3]
+ * @return {Object} - { color, textShadow, transform }
+ */
+const create3dText = (size = 3) => {
+  const color = colors.black;
+  const shadowColor = colors.mainColor;
+  const textShadow = Array.from(Array(size), (a, b) => b + 1)
+    .map(shadowSize => `${shadowSize}px ${shadowSize}px 0 ${shadowColor}`)
+    .join(', ');
+  const transform = `translate3d(-${size}px, -${size}px, 0)`;
+  return { color, textShadow, transform };
+};
 
 /*
  * Style
  */
-export const Name = styled.div(
+export const Title = styled.h2(
   {
     alignItems: 'flex-end',
     display: 'flex',
@@ -33,12 +41,14 @@ export const Name = styled.div(
   // New
   ({ isBig }) =>
     isBig && {
+      // @media
       [minWidth(breakpoints.medium)]: {
         fontSize: '2em',
         justifyContent: 'center',
         textAlign: 'center',
         marginBottom: 0,
       },
+
       [minWidth(breakpoints.xlarge)]: {
         fontSize: '3em',
       },
@@ -49,15 +59,15 @@ export const ContainerImage = styled.figure({
   position: 'relative',
 });
 
-export const Image = styled.img(
+export const Image = styled.div(
   {
-    ...base.image,
-    objectFit: 'cover',
-    objectPosition: '50% 0%',
-    width: '100%',
+    display: 'block',
+    backgroundSize: 'cover',
+    backgroundPosition: '50% 50%',
     boxShadow: '0 2px 4px rgba(21, 16, 0, .3)',
   },
-  ({ isBig }) => ({
+  ({ srcImage, isBig }) => ({
+    backgroundImage: `url(${srcImage})`,
     height: isBig ? 460 : 250,
   }),
 );
@@ -71,23 +81,15 @@ export const Category = styled.span({
   top: 0,
 });
 
-export const Desc = styled.p({
+export const Text = styled.p({
   margin: '1em 3em 2em',
   textAlign: 'center',
+
+  // @media
   [maxWidth(breakpoints.medium)]: {
     display: 'none',
   },
 });
-
-const create3dText = (size = 3) => {
-  const color = colors.black;
-  const shadowColor = colors.mainColor;
-  const textShadow = Array.from(Array(size), (a, b) => b + 1)
-    .map(shadowSize => `${shadowSize}px ${shadowSize}px 0 ${shadowColor}`)
-    .join(', ');
-  const transform = `translate3d(-${size}px, -${size}px, 0)`;
-  return { color, textShadow, transform };
-};
 
 export const Read = styled.div({
   background: `rgba(0, 0, 0, 0.75)`,
@@ -111,15 +113,19 @@ export const Read = styled.div({
 export const Link = styled(GatsbyLink)({
   display: 'block',
   padding: '0 .5em .5em',
-  [Name]: {
+
+  [Title]: {
     transition: '.4s',
   },
+
   [Read]: {
     transition: '.4s',
     opacity: 0,
   },
+
+  // :state
   ':hover, :focus': {
-    [Name]: create3dText(5),
+    [Title]: create3dText(5),
     [Read]: {
       opacity: 1,
     },
@@ -130,22 +136,29 @@ export const Container = styled.article(
   {
     display: 'block',
     padding: '1em',
-    maxWidth: '100%',
+    width: '100%',
   },
 
   // Old
-  ({ isBig }) =>
+  ({ fromMoreArticle, isBig }) =>
     !isBig && {
       [Link]: {
         ':hover, :focus': {
-          [Name]: create3dText(3),
+          [Title]: create3dText(3),
         },
       },
+
       [Read]: {
         fontSize: '1.25em',
       },
+
+      // @media
       [minWidth(breakpoints.medium)]: {
         width: '50%',
+      },
+
+      [minWidth(breakpoints.xxlarge)]: {
+        width: fromMoreArticle && '33%',
       },
     },
 );
