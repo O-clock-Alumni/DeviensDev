@@ -7,7 +7,8 @@ import styled, { keyframes } from 'react-emotion';
 /*
  * Local Import
  */
-import { animation, colors, weights } from 'src/themes';
+import shortLogo from 'src/assets/images/common/logo-short.svg';
+import { animation, breakpoints, colors, minWidth, weights } from 'src/themes';
 
 /*
  * Style
@@ -28,12 +29,12 @@ export const Container = styled.header({
  * Logo
  */
 export const Logo = styled(Link)({
-  display: 'block',
-  fontSize: '1.7em',
-  fontWeight: weights.bold,
-  textTransform: 'uppercase',
-  fontFamily: 'Encode Sans Condensed',
-  letterSpacing: '.06em',
+  content: '""',
+  cursor: 'pointer',
+  background: `url(${shortLogo}) no-repeat`,
+  backgroundSize: '100%',
+  width: '3.4em',
+  height: '3.4em',
 });
 
 /*
@@ -45,26 +46,26 @@ export const Nav = styled.nav(
     fontSize: '.9em',
     maxWidth: 1600,
     margin: '0 auto',
-  },
-  ({ open }) => {
-    let responsiveHeight;
-    if (open) {
-      responsiveHeight = {
-        height: '100vh',
-      };
-    }
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
 
-    return {
-      ...responsiveHeight,
-      flexDirection: open ? 'column' : 'row',
-      justifyContent: open ? 'flex-start' : 'space-between',
-    };
+    // Medias
+    [minWidth(breakpoints.large)]: {
+      flexDirection: 'row',
+      justifyContent: 'center',
+    },
   },
+  ({ open }) =>
+    open && {
+      height: '100vh',
+      flexDirection: 'row',
+      justifyContent: 'center',
+    },
 );
 
 export const Links = styled.ul(
   {
-    display: 'flex',
+    display: 'none',
     alignItems: 'center',
     justifyContent: 'space-between',
 
@@ -72,17 +73,24 @@ export const Links = styled.ul(
     '.activeLink': {
       color: colors.mainColor,
     },
+
+    // Medias
+    [minWidth(breakpoints.large)]: {
+      display: 'flex',
+    },
   },
   ({ open }) =>
     open && {
+      display: 'flex',
       alignItems: 'flex-start',
-      position: 'absolute',
       flexDirection: 'column',
+      position: 'absolute',
       fontSize: '2em',
       margin: 'auto',
       transform: 'translateY(-50%) translateX(-50%)',
       left: '50%',
       top: '50%',
+
       '> li': {
         margin: '.5em',
       },

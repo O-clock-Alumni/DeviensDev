@@ -18,6 +18,9 @@ const Burger = ({ open, hideMenu, showMenu }) => (
   </Circle>
 );
 
+/*
+ * PropTypes
+ */
 Burger.propTypes = {
   open: PropTypes.bool.isRequired,
   hideMenu: PropTypes.func.isRequired,

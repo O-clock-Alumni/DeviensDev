@@ -6,7 +6,7 @@ import styled from 'react-emotion';
 /*
  * Local Import
  */
-import { colors } from 'src/themes';
+import { breakpoints, colors, minWidth } from 'src/themes';
 
 /*
  * Style
@@ -14,12 +14,17 @@ import { colors } from 'src/themes';
 export const Circle = styled.div({
   borderRadius: '50%',
   cursor: 'pointer',
-  height: '55px',
   position: 'absolute',
   top: 0,
   right: 0,
+  height: '70px',
   width: '55px',
   zIndex: 10,
+
+  // Medias
+  [minWidth(breakpoints.large)]: {
+    display: 'none',
+  },
 });
 
 export const Bar = styled.div(
