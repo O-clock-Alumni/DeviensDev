@@ -48,20 +48,3 @@ export const Articles = styled.div({
   maxWidth: 1000,
   margin: '0 auto',
 });
-
-/*
- * Last Article
- */
-export const Lastest = styled.div({
-  maxWidth: 1200,
-  margin: '0 auto',
-});
-
-/*
- * Oldest Articles
- */
-export const Oldest = styled.ul({
-  display: 'flex',
-  flexWrap: 'wrap',
-  margin: '0 -1em',
-});

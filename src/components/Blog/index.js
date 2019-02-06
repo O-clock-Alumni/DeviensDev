@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 /*
  * Local Import
  */
+import { breakpoints } from 'src/themes';
 import PreviewArticle from 'src/components/PreviewArticle';
 import ContributeBtn from 'src/components/ContributeBtn';
 import Pagination from './Pagination';
@@ -14,7 +15,7 @@ import Pagination from './Pagination';
 import Intro from './Intro';
 
 // Styles
-import * as Style from './style';
+import * as S from './style';
 
 /*
  * Component
@@ -33,28 +34,39 @@ export default class Blog extends React.Component {
   state = {
     category: 'all',
     page: 1,
+    isMobile: false,
   };
+
+  /*
+   * LifeCycles
+   */
+  componentDidMount() {
+    window.addEventListener('resize', this.onMobile);
+    this.onMobile();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onMobile);
+  }
 
   /*
    * Handlers
    */
   switchCategory = tag => {
-    const { category } = this.state;
-
-    if (category !== tag) {
-      this.setState({ category: tag });
-    }
- else {
-      this.setState({ category: 'all' });
-    }
+    this.setState(currentState => ({
+      category: currentState.category !== tag ? tag : 'all',
+    }));
   };
 
   /*
    * Actions
    */
+  onMobile = () => {
+    this.setState({ isMobile: window.innerWidth < breakpoints.medium });
+  };
+
   changePage = evt => {
-    const { id } = evt.target;
-    this.setState({ page: parseInt(id, 0) });
+    this.setState({ page: parseInt(evt.target.id, 0) });
   };
 
   /*
@@ -79,23 +91,24 @@ export default class Blog extends React.Component {
     const articlePage = articles.slice(9 * (page - 1), 9 * page);
 
     return (
-      <Style.Container>
-        {/* Content */}
-        <Style.Content>
+      <S.Container>
+        <S.Content>
           <Intro />
-          <Style.ArticlesContainer>
-            <Style.Articles>
-              {/* Lastest article */}
-              <Style.Lastest>
-                <PreviewArticle article={lastArticle.node} isBig />
-              </Style.Lastest>
+          <S.ArticlesContainer>
+            <S.Articles>
+              {/* The last article, or the article which is in priority */}
+              {lastArticle && (
+                <PreviewArticle
+                  article={lastArticle.node}
+                  isBig={!this.state.isMobile}
+                />
+              )}
 
-              {/* Oldest articles */}
-              <Style.Oldest>
-                {articlePage.map(({ node }) => (
+              {/* The last next articles */}
+              {articlePage.length &&
+                articlePage.map(({ node }) => (
                   <PreviewArticle key={node.id} article={node} />
                 ))}
-              </Style.Oldest>
 
               {/* Pagination */}
               {articles.length > 9 && (
@@ -105,17 +118,17 @@ export default class Blog extends React.Component {
                   handleChange={this.changePage}
                 />
               )}
-            </Style.Articles>
-          </Style.ArticlesContainer>
-        </Style.Content>
+            </S.Articles>
+          </S.ArticlesContainer>
+        </S.Content>
 
-        {/* Contribute */}
+        {/* Wanna contribute ? */}
         <ContributeBtn />
 
         {/* Filter by category */}
         {/* @TODO */}
         {/* <NavCat category={category} switchCategory={this.switchCategory} /> */}
-      </Style.Container>
+      </S.Container>
     );
   }
 }
