@@ -18,8 +18,8 @@ export const Container = styled.div({
 });
 
 export const Logo = styled.div({
-  height: '5em',
-  width: '10em',
+  height: '7em',
+  width: '8em',
   margin: '0 auto',
 
   '::before': {
