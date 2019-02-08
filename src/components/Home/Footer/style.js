@@ -8,12 +8,28 @@ import { Link } from 'gatsby';
  * Local Import
  */
 import { base } from 'src/themes';
+import logo from 'src/assets/images/common/logo.svg';
 
 /*
  * Style
  */
 export const Container = styled.div({
   ...base.outroContainer,
+});
+
+export const Logo = styled.div({
+  height: '5em',
+  width: '10em',
+  margin: '0 auto',
+
+  '::before': {
+    background: `url(${logo}) no-repeat`,
+    backgroundSize: '100%',
+    content: '""',
+    display: 'block',
+    height: '100%',
+    width: '100%',
+  },
 });
 
 export const WantMore = styled.h2({

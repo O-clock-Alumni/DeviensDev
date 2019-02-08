@@ -13,7 +13,8 @@ import * as S from './style';
  */
 const Intro = () => (
   <S.Container>
-    <S.WantMore>DeviensDev est un projet open-source</S.WantMore>
+    <S.Logo />
+    <S.WantMore>est un projet open-source</S.WantMore>
     <S.Text>
       Si vous voulez contribuer au projet, la porte vous est grande ouverte.
       Enfin la porte… Le dépôt GitHub. Bref,&nbsp;vous&nbsp;avez&nbsp;compris !
