@@ -19,7 +19,7 @@ export const Container = styled.header({
   top: 0,
   left: 0,
   right: 0,
-  padding: '1em',
+  padding: '.6em',
   position: 'fixed',
   overflow: 'hidden',
   zIndex: 10,
