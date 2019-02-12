@@ -88,22 +88,10 @@ module.exports = {
         short_name: 'DeviensDev',
         start_url: '/',
         description: "Site d'information sur le métier de développeur",
-        background_color: '#0ac3a7',
-        theme_color: '#fffdd8',
-        display: 'minimal-ui',
-        // @TODO : Choose between `automatic`, `hybride` or `manual` mode
-        // icons: [
-        //   {
-        //     src: '/favicons/logo-192.png',
-        //     sizes: '192x192',
-        //     type: 'image/png',
-        //   },
-        //   {
-        //     src: '/favicons/logo-512.png',
-        //     sizes: '512x512',
-        //     type: 'image/png',
-        //   },
-        // ],
+        background_color: '#fec730',
+        theme_color: '#000000',
+        display: `minimal-ui`,
+        icon: `src/assets/images/common/logo-short.svg`,
       },
     },
 
