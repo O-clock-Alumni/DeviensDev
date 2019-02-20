@@ -11,6 +11,7 @@ import { hydrate } from 'emotion';
 import 'src/css/fonts.css';
 import 'src/css/reset.css';
 import 'src/css/root.css';
+import 'src/css/prism.css';
 
 /**
  * On client entry • Called when the Gatsby browser runtime first starts.

@@ -6,7 +6,7 @@ import styled from 'react-emotion';
 /*
  * Local Import
  */
-import { colors, weights, minWidth, breakpoints, base } from 'src/themes';
+import { base, breakpoints, colors, minWidth, weights } from 'src/themes';
 import guillemet from 'src/assets/images/common/guillemet.svg';
 
 /*
@@ -21,6 +21,8 @@ const headerSize = 1200;
 export const Container = styled.div({
   width: '100%',
   padding: '1em 1em',
+
+  /* @medias */
   [minWidth(breakpoints.small)]: {
     padding: '1em 1.5em',
   },
@@ -47,9 +49,12 @@ export const Title = styled.h1({
   fontSize: '2em',
   fontFamily: 'Encode Sans Condensed',
   fontWeight: weights.bold,
+
+  /* @medias */
   [minWidth(breakpoints.small)]: {
     fontSize: '2.5em',
   },
+
   [minWidth(breakpoints.medium)]: {
     fontSize: '3em',
   },
@@ -115,12 +120,12 @@ export const Content = styled.div({
   // > Citation
   blockquote: {
     // Container
-    background: colors.mainColor,
+    background: colors.greenWater,
     display: 'flex',
     justifyContent: 'center',
     fontWeight: weights.bold,
     fontStyle: 'italic',
-    padding: '3em 0 1em 0',
+    padding: '3em 1em 1em',
     textAlign: 'center',
     width: '100vw',
 
@@ -135,6 +140,7 @@ export const Content = styled.div({
       backgroundRepeat: 'no-repeat',
       backgroundImage: `url(${guillemet})`,
     },
+
     '&::after': {
       content: '""',
       position: 'relative',
@@ -195,6 +201,13 @@ export const Content = styled.div({
   // Lien
   'a:not(.gatsby-resp-image-link)': {
     ...base.link,
+  },
+
+  // Snippet
+  '.gatsby-highlight': {
+    maxWidth: mainSize,
+    marginLeft: 'auto',
+    marginRight: 'auto',
   },
 });
 
