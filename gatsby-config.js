@@ -9,8 +9,9 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     title: 'DeviensDev',
-    description: "Site d'information sur le métier de développeur",
-    author: "Alexandre Bourdeaud'hui",
+    description:
+      'DeviensDev le site pour découvrir les métiers du développement',
+    author: 'O’clock Team',
     siteUrl: 'https://deviens.dev',
   },
   plugins: [
@@ -87,7 +88,8 @@ module.exports = {
         name: 'DeviensDev',
         short_name: 'DeviensDev',
         start_url: '/',
-        description: "Site d'information sur le métier de développeur",
+        description:
+          'DeviensDev le site pour découvrir les métiers du développement',
         background_color: '#fec730',
         theme_color: '#000000',
         display: `minimal-ui`,

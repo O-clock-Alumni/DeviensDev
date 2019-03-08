@@ -1,7 +1,7 @@
 {
   "name": "DeviensDev",
   "version": "1.0.0",
-  "description": "Site d'information sur le métier de développeur",
+  "description": "DeviensDev le site pour découvrir les métiers du développement",
   "author": "Alexandre Bourdeaud'hui <alexandre@oclock.io>",
   "license": "MIT",
   "engines": {
