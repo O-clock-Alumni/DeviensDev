@@ -11,7 +11,7 @@ module.exports = {
     title: 'DeviensDev',
     description: "Site d'information sur le métier de développeur",
     author: "Alexandre Bourdeaud'hui",
-    siteUrl: 'https://deviensdev.com',
+    siteUrl: 'https://deviens.dev',
   },
   plugins: [
     `gatsby-plugin-sharp`,
