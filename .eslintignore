@@ -1,3 +1,12 @@
-/public
+# Dependencies NPM / Yarn
 /node_modules
+/.cache
+
+# Build Compiled.
+/public
+
+# Vendor
 /vendor
+
+# Gatsby config
+/gatsby-*

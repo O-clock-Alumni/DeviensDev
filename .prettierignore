@@ -8,6 +8,9 @@
 # Logs
 /*.log
 
-
 # Code
+/src/data/*
 /src/components/SEO/data.js
+
+# Gatsby config
+/gatsby-*
