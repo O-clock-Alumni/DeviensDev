@@ -25,7 +25,7 @@ Pour ce faire, il y a quelques étapes à respecter :
 * Crée ton article dans `content/blog/*`
 
   - ⚠️ En respectant bien la convention du nom de fichier `<date>_<titre>/index.md` (par exemple `2018-09-25_devenir-developpeur/index.md`)
-  - En t'aidant du fichier [`GUIDELINES.md`](./GUIDELINES.md)
+  - Tu peux t'aider du fichier [`GUIDELINES.md`](./GUIDELINES.md) pour mettre en forme ton article
   - Si jamais tu as un doute, tu peux t'inspirer des autres articles déjà présent
 
 * Crée un fichier `.json` dans `content/authors/*` où tu peux y ajouter ton twitter et ta bio.
