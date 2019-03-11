@@ -54,10 +54,14 @@ $ open http://localhost:8000
 
 ### Une fois que tout est prêt :
 
-- Tu push sur ta branche
+- Tu commit les modifications de ta branche en local
 
   - `git add -A && git commit -m "Mon message"` (remplace `Mon message` par un nom de commit approprié) pour commiter tes changemens
 
+- Tu push ta branche locale sur ton dépôt
+
+  - `git push -u origin MaBranche` (remplace `MaBranche` par le nom de ta branche)
+  
 - Tu fais une demande de `pull-request` de ta branche vers notre branche `master`
 
 - On fait une relecture de l’article pour corriger les éventuelles fautes d’orthographe
