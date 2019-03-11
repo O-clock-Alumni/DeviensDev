@@ -80,7 +80,7 @@ const Formations = () => (
         la liste, contactez nous !
       </S.Text>
 
-      <S.Button href="mailto:contact@deviensdev.com">Nous contacter</S.Button>
+      <S.Button href="mailto:contact@deviens.dev">Nous contacter</S.Button>
     </S.ConstructionContainer>
   </React.Fragment>
 );

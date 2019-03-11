@@ -32,7 +32,7 @@ const Terms = () => (
     <Party>
       <ThirdTitle>Courrier électronique</ThirdTitle>
       <Text>
-        <a href="mailto:contact@deviensdev.com">contact@deviensdev.com</a>
+        <a href="mailto:contact@deviens.dev">contact@deviens.dev</a>
       </Text>
     </Party>
 

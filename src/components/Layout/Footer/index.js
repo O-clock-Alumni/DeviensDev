@@ -25,7 +25,7 @@ const Footer = () => (
 
       {/* Contact */}
       <Item>
-        <a href="mailto:contact@deviensdev.com">Nous contacter</a>
+        <a href="mailto:contact@deviens.dev">Nous contacter</a>
       </Item>
     </Nav>
 
