@@ -12,63 +12,57 @@ Vous ne savez pas si vous arriverai à conjuguer vie personnelle et professionne
 Découvrez mon témoignage, développeur web junior reconverti à l'âge de 35 ans !
 
 ---
-
 ### Pourquoi ai-je choisi la reconversion professionnelle ?
 
-Issue d'une formation supérieure en commerce, j'ai longuement travaillé dans l'univers de la grande distribution.
-
+Issue d'une formation supérieure en commerce, j'ai longuement travaillé dans l'univers de la grande distribution. 
 Ma passion pour l'informatique et les nouvelles technologies m'ont amené à m'interroger sur mon parcours professionnel et mon désir de poursuivre ma carrière dans ce secteur.
 J'ai alors pris conscience que mes perspectives d'évolution risquaient d'être freinées par mon manque de diplôme dans le secteur informatique.
-
 Désireux de sortir de la fonction commerciale dans laquelle j'ai atteint mes limites d'évolution. J'ai donc décidé de repartir à l'école par le biais de l'alternance.
 Me voilà parti pour deux ans d'études dans le cadre d'un BTS Services Informatiques aux Organisations (SLAM).
+Alors si toi aussi, tu penses te reconvertir ou changer d’orientation, voici 5 étapes clés pour réussir.
 
-### Qu'elles sont les formations disponibles lorsqu'on désire se reconvertir en tant que développeur ?
+### Les 5 étapes clés de la reconversion professionnelle:
 
-De nos jours beaucoup de formations sont disponibles afin de devenir développeur web. Essentiellement au format présentielle et téléprésentielle. Certaines seront certifiantes, qualifiantes ou diplômantes. Soyez donc bien vigilant, que cette formation réponde exactement aux objectifs fixés par votre projet de reconversion.
+##### 1. Se poser les bonnes questions
 
-Dans mon cas, le BTS SIO me permettait d'obtenir un formation diplômante reconnu par l'État ;)
-Le contenu du programme était très encadré du fait qu'il correspond à un BTS disponible en parcours initial (post BAC). Voici les technos que j'ai pu apprendre lors de ses deux ans:
-- HTML
-- CSS
-- PHP/MySql
-- JAVA
-- Javascript
-- Android
-- Symfony
+Changer d’orientation ou de métier n’est pas un hasard. Les raisons qui nous poussent à faire ce choix nous obligent à être réellement certains et lucide dans notre décision. De ce fait, l’élément déclencheur de cette reconversion ne doit pas simplement être fondé sur une mésentente avec ton responsable. La meilleure façon de faire le point est de te poser quelques questions :
+- "Pour qu’elles raisons je souhaite changer de métier ?"
+- "Malgré les difficultés, suis-je assez motivé pour aller jusqu’au bout ?"
+- "Quel sont les points importants pour ma carrière ?"
+- "Ma famille ou mes proches me soutiendront ils durant mon parcours ?"
 
-_Quelques liens utiles pour compléter votre formation:_
+Me concernant, comme je l’ai dit un peu plus haut, j’avais fait le tour du métier et souhaitais sortir du circuit commercial. J’étais pleinement conscient des difficultés que j’allais devoir surmonter (car ma femme était déjà passée par cette épreuve). Je souhaitais, vraiment, m’épanouir dans mon métier et atteindre un salaire plus confortable. Et pour finir, ma famille était à fond derrière moi, donc aucunes hésitations à ce niveaux, let’s go !
 
-- [Grafikart](https://www.grafikart.fr/)Grafikart => très instructif sur plein de technos
-- [Udemy](http://www.udemy.com/)Udemy => plateforme en ligne proposant des cours à l'unité
-- [O’Clock](http://oclock.io/)O’Clock => école proposant du téléprésentiel
+##### 2. S’intéresser au marché visé
 
-### Quelles solutions pour financer la reconversion en développeur web ?
+Maintenant que votre choix est fait et que vous êtes vraiment motivé, tu dois mener ta petite enquête. Rien de t’elle qu’une bonne petite étude de marché ;)
+- Quelles sont les compétences requises ?
+- Quelles sont les formations disponibles pour atteindre au métier visé ?
+- Quelles sont les entreprises qui recrutent du secteur ?
 
-Contrairement à ce qu’on peut imaginer, le financement de la reconversion n’est pas si compliqué à obtenir. Vous avez plusieurs solution: CPF, CIF, AIF de Pôle Emploi, fonds d'assurance formation, régions, alternance, etc.
-Me concernant, j'ai eu l'oportunité d'effectuer ma formation par le biais d'une alternance, et je vous le recommande vivement ;)
+Si tu souhaites te reconvertir dans le développement, tu dois t’informer sur le secteur et choisir de préférence les domaines dans lesquels il y aura du travail. Car si tu choisis de te spécialiser dans le Fortran II (qui est un ancien langage de programmation 1958), cela n’aura pas les mêmes conséquences que de choisir une techno comme Java, PHP ou encore du JavaScript. A toi aussi, de voir quels sont les domaines qui sont dynamiques sur le marché du travail.
 
-## Comment réussir sa reconversion professionnelle ?
+Je t’avouerai que cette partie-là n’était pas la plus fun à mon goût, mais c’était un passage obligé dans mon parcours de reconversion. J’ai pu ainsi déterminer qu’elles étaient les entreprises de ma région susceptibles de m’accueillir en alternance, et ainsi ne pas perdre de temps et d’énergie à postuler dans des secteurs non porteurs.
 
-a) **Être débrouillard**
+##### 3. Construire ton projet
+Ok ! La partie pas très rigolote est finie, maintenant s’impose aussi une remise en question de tes propres compétences. Tu dois savoir te situer par rapport au marché actuel et quel chemin parcourir pour accéder au métier que tu vise. Là aussi, tu as plusieurs choix :
+- Bilan de compétence
+- Stage en immersion
+- Portes ouvertes
+- Évaluation en milieu de travail
 
-Le fait d'être confronté à des situations variées (projet scolaire/professionnel) vous poussera à dépasser vos connaissances régulièrement. Même si votre formation vous apportera de soldides bases, vous devrez sans cesse compléter vos acquis par de nouvelles compétences lors de vos différentes recherche sur le net.
+Cela te permettra de te conforter dans ton choix de reconversion ou au contraire de le réévaluer.
 
-b) **Être persévérant**
+Etant de nature très autodidacte, je me suis essayé à l’exercice de développeur dans mon coin, et je savais pertinemment que ce métier était fait pour moi. Donc pas de bilan de compétence pour ma part, mais je vous conseille vivement cette étape pour ne pas être déçu par la suite ;)
 
-Afin de pouvoir maîtriser certains concepts (surtout lors de l'utilisation de framework), vous devrez pratiquer plusieurs fois avant de bien l'assimiler. En effet, en programmation, il y a des concepts clés parfois assez complexes.
-Donc, ne vous découragez pas car l'essentiel c'est de s'amuser en codant !!!
+##### 4. Reste humble
+Il faut bien te mettre dans la tête que la reconversion professionnelle se prépare et qu’il ne faut pas te lancer tête baissée. Ce n’est pas après avoir suivi trois tuto sur le net ou bien avoir appris le manuel du bon développeur web que tu sauras tout faire ! Et lorsque tu commenceras ton nouveau job en tant que dev, ne sois pas étonné de commencer avec un salaire de débutant. Même, si tu as la trentaine comme moi, tu devras acquérir une nouvelle expérience métier.
 
-c) **Être organisé**
+Si tu as de la chance de bénéficier d’une alternance, reste humble, cette dernière te permettra de conforter tes acquis par une pratique professionnelle.
 
-Le point le plus important à mes yeux, l'**organisation**. Car se former, avoir une activité professionnelle et maintenir une vie personelle requiert une vrai organisation de tous les jours.
-En toute honnêteté, il faudra faire des sacrifices (temporaires) afin d'atteindre les objectifs fixés.
+##### 5. Avoir conscience des difficultés
+Garde en tête, que ta future carrière sera déterminée par cette étape cruciale qu’est la reconversion professionnelle. Tu devras donc prendre en considérations tous les paramètres et même ceux qui seront les moins agréables ! Ce changement d’orientation impliquera au-delà d’un apport financier, une forte motivation de tous les instants ainsi qu’une grande maturité pour pouvoir se remettre en question sans cesse. Après laisse place à ton talent !
 
-### En tant que développeur junior peut-on trouver du travail facilement ?
-
-Je dirais que ça dépend des régions ! En île de France, les entreprises mènent une guerre féroce pour embaucher des développeurs. Ce qui engendre une hausse des salaires (tant mieux pour nous).
-Dans mon cas, ma région recrute plutôt des développeurs ayant un niveau ingénieur. C'est pour cela que je souhaite me spécialiser afin d'augmenter mon employabilité.
-[O’Clock](http://oclock.io/)O'clock, me perméttra de me spécialiser sur [O’ClockReact](https://oclock.io/specialites/react)React et [O’ClockSymfony](https://oclock.io/specialites/symfony)Symfony, via leurs formations en téléprésentielles !!! Cool !!!
-
+Pour conclure cet article, je ne peux que vous conseiller la voix de la reconversion professionnel même si ses deux années furent difficiles et pleines de concessions ! Aujourd’hui j’ai un diplôme de développeur en poche et je ne souhaite pas m’arrêter là car fin mars j’attaque une formation pour me spécialiser en React/Symfony. Je t’invite donc à rester sur DeviensDev dans l'optique d'un futur article que je produirai après ma formation.
 
 _Photo by Frederico Caputo_
