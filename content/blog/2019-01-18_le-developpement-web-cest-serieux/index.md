@@ -7,7 +7,7 @@ cover: ./cover.jpg
 
 ![Photo d'illustration](./cover.jpg)
 
-Chez O’clock, on nous fait souvent la remarque qu’il est impossible de devenir développeur en quelques mois. Ici, on cite la question avec des formes qui n’étaient pas originellement présentes, vous vous doutez bien. Même si nous sommes sûrs de notre fait et de notre démarche, nous sommes constamment pétris de doute.
+Chez [O’clock](https://oclock.io), on nous fait souvent la remarque qu’il est impossible de devenir développeur en quelques mois. Ici, on cite la question avec des formes qui n’étaient pas originellement présentes, vous vous doutez bien. Même si nous sommes sûrs de notre fait et de notre démarche, nous sommes constamment pétris de doute.
 
 Dès l’élaboration de nos différents programmes pédagogiques, nous nous posions énormément de questions : comment présenter au mieux nos formations pour éviter de basculer dans le “bullshit” ? Comment rester sincère, en retranscrivant les objectifs de nos programmes pédagogiques ? Comment ne pas tomber dans le cliché de l’ultra banalisme qui consiste à dire que tout le monde peut devenir dev en trois minutes douche comprise, sans pour autant décourager ceux qui voudraient se lancer ? Entre la difficulté réelle qu’est l’apprentissage du développement web que les professionnels du métier ont tendance à exacerber et le discours de l’hyper accessibilité qui confine au marchandage de tapis, la nuance est fine.
 
