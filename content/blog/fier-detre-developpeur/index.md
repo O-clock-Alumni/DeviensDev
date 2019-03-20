@@ -31,7 +31,7 @@ Je compare le développement à un art car comme un artiste le développeur part
 
 Cette passion peut même s’avérer dévorante au point d’envahir vos pensées jour et nuit. Lorsque je travaille sur un problème complexe, je ressens en moi un feu inextinguible et je dois absolument accoucher du code nécessaire a la résolution de mon problème et ce de la manière la plus élégante possible afin d’être parfaitement satisfait. 
 
-Je bloggue d’ailleurs plus ou moins régulièrement sur ce sujet sur mon blog (comme [la](http://www.catuhe.com/post/Le-moment-mou.aspx) ou [la] (http://www.catuhe.com/post/Le-diable-est-dans-les-details.aspx)).
+Je bloggue d’ailleurs plus ou moins régulièrement sur ce sujet sur mon blog (comme [la](http://www.catuhe.com/post/Le-moment-mou.aspx) ou [la](http://www.catuhe.com/post/Le-diable-est-dans-les-details.aspx).
 
 Bien évidemment certains développeurs comme certains peintres ou dessinateurs ne font pas ça par passion et ce n’est pas un problème en soi. Je voudrais juste insister ici sur le fait que développer par passion est autant possible que de chanter par passion. Vivre de sa passion en tant que développeur est aussi satisfaisant que pour n’importe quel autre métier artistique. **Si développer vous fait vibrer, alors vous avez le monde devant vous !**
 
