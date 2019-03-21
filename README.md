@@ -1,6 +1,6 @@
 # Deviens Dev
 
-This repo contains the source code powering [DeviensDev.com](https://DeviensDev.com)
+This repo contains the source code powering [Deviens.Dev](https://Deviens.Dev)
 
 ## Getting Started
 
