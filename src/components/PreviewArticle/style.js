@@ -35,8 +35,13 @@ export const Title = styled.h2(
     fontWeight: weights.bold,
     fontFamily: 'Encode Sans Condensed',
     marginBottom: '.5em',
-    height: '2.6em',
+    height: '3.8em',
     overflow: 'hidden',
+
+    // @media
+    [maxWidth(breakpoints.medium)]: {
+      height: 'auto',
+    },
   },
   // New
   ({ isBig }) =>
