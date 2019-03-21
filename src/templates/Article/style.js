@@ -81,22 +81,29 @@ export const Content = styled.div({
   //   color: colors.black,
   // },
 
-  // ## Titre de niveau 2
-  h2: {
+  'h1, h2, h3, h4, h5, h6': {
     maxWidth: mainSize,
     margin: 'auto',
-    marginTop: '1em',
+  },
+
+  // ## Titre de niveau 2
+  h2: {
     fontWeight: weights.bold,
     fontSize: '1.5em',
+    marginTop: '1em',
   },
 
   // ### Titre de niveau 3
   h3: {
-    maxWidth: mainSize,
-    margin: 'auto',
-    marginTop: '1em',
     fontWeight: weights.bold,
     fontSize: '1.2em',
+    marginTop: '1em',
+  },
+
+  h4: {
+    fontWeight: weights.bold,
+    fontSize: '1.1em',
+    marginTop: '1em',
   },
 
   // Texte
@@ -117,7 +124,23 @@ export const Content = styled.div({
     },
   },
 
+  // List
+  ul: {
+    maxWidth: mainSize,
+    margin: 'auto',
+
+    li: {
+      ...base.mainText,
+      listStyle: 'disc',
+      position: 'relative',
+      left: '1.1em',
+      padding: '0 1.1em 0 .3em',
+    },
+  },
+
+  // >
   // > Citation
+  // >
   blockquote: {
     // Container
     background: colors.greenWater,
