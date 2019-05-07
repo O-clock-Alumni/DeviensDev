@@ -3,7 +3,6 @@ title: 'Développement : entre passion et patience.'
 author: 'zanorg'
 category: 'vécu'
 cover: ./cover.jpg
-priority: true
 slug: 'developpement-passion-patience'
 ---
 
