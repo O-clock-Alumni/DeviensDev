@@ -28,7 +28,7 @@ const TOKEN_IS_MISSING = [
 /**
  * Get data by the Github username
  * @param  {String} username
- * @return {Object}
+ * @return {Promise}
  */
 const getDataByUsername = username => {
   if (isDevelopment && !TOKEN) {
@@ -72,20 +72,32 @@ const getContributorFromGithub = async username => {
   }
 };
 
+/**
+ * Get the contributor
+ * @param  {String}  username
+ * @return {Promise}
+ */
+/* eslint-disable global-require, import/no-dynamic-require */
 export const getContributor = async username => {
   let result = {};
 
   // Get data from Github
   const contributorGithub = await getContributorFromGithub(username);
 
-  // Get data of contributor, in `json` file
-  // eslint-disable-next-line
+  // Retrieve data of the contributor, stored in a `.json` file
   const authorData = require(`../../content/authors/${username}`);
 
+  // If the contributor wants another picture than the one on GitHub
+  const avatar = authorData.avatar
+    ? require(`../../content/authors/images/${authorData.avatar}`)
+    : contributorGithub.avatar;
+
   result = {
-    ...authorData,
     ...contributorGithub,
+    ...authorData,
+    avatar,
   };
 
   return result;
 };
+/* eslint-enable global-require, import/no-dynamic-require */
