@@ -19,3 +19,7 @@ insert_final_newline = true
 
 # editorconfig-tools is unable to ignore longs strings or urls
 max_line_length = 80
+
+[*.md]
+# Trailing spaces in markdown is used to differentiate line breaks and paragraphs
+trim_trailing_whitespace = false
