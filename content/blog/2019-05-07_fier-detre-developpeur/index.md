@@ -15,7 +15,7 @@ Ce fut sans doute le moment le plus marquant de ma vie professionnelle. Moi qui 
 
 Le développement est très clairement une passion comparable à d’autres et de ce fait, je me considère comme chanceux de pouvoir vivre de ma passion. Cette passion (dévorante) ne m’a pas quitté depuis que j’ai écrit mes premiers programmes, il y a maintenant plus de 33 ans. Je dirais même que chaque jour qui passe la renforce, au vu de toutes les merveilles qui s’ouvrent aux développeurs (développement web, mobile, embarqué, IA, robotique, spatial, etc…).
 
-Je travaille aujourd’hui chez Microsoft sur un projet que j’ai créé dans mon « garage » (oui enfin, dans mon appartement parisien) sur mon temps libre : www.babylonjs.com.
+Je travaille aujourd’hui chez Microsoft sur un projet que j’ai créé dans mon « garage » (oui enfin, dans mon appartement parisien) sur mon temps libre : [https://www.babylonjs.com/](https://www.babylonjs.com/).
 
 ![alt image](./masque.png)
 
