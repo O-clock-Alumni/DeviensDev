@@ -205,7 +205,11 @@ const primaryButton = {
   textAlign: 'center',
   textTransform: 'uppercase',
   width: 230,
-  ...greenEffect(),
+
+  // #49 — Disable greenEffect, on mobile
+  [minWidth(breakpoints.medium)]: {
+    ...greenEffect(),
+  },
 };
 
 /*
