@@ -77,7 +77,9 @@ export const Card = styled.li({
   },
 });
 
-export const Box = styled(Link)(
+export const Box = styled(Link, {
+  shouldForwardProp: prop => !['iconHover', 'isEven'].includes(prop),
+})(
   {
     background: colors.white,
     boxShadow: '0 2px 0 rgba(0, 0, 0, .06)',
@@ -110,18 +112,20 @@ export const Box = styled(Link)(
     !empty && {
       ...base.greenEffect('h2', 'h2::before'),
     },
-  ({ hover, empty }) =>
+  ({ iconHover, empty }) =>
     !empty && {
-      ':hover, :focus': {
-        'p::before': {
-          content: '""',
-          display: 'block',
-          width: '3em',
-          height: '3.1em',
-          background: `url(${hover})`,
-          backgroundRepeat: 'no-repeat',
-          margin: '1em auto',
-          backgroundSize: '100%',
+      [minWidth(breakpoints.medium)]: {
+        ':hover, :focus': {
+          'p::before': {
+            content: '""',
+            display: 'block',
+            width: '3em',
+            height: '3.1em',
+            background: `url(${iconHover})`,
+            backgroundRepeat: 'no-repeat',
+            margin: '1em auto',
+            backgroundSize: '100%',
+          },
         },
       },
     },

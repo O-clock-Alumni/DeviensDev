@@ -131,7 +131,9 @@ export const Card = styled.li({
   },
 });
 
-export const Box = styled(Link)(
+export const Box = styled(Link, {
+  shouldForwardProp: prop => !['iconHover'].includes(prop),
+})(
   {
     background: colors.white,
     borderRadius: '4px 4px 0 0',
@@ -147,17 +149,19 @@ export const Box = styled(Link)(
     // Animation
     ...base.greenEffect('h2', 'h2::before'),
   },
-  ({ hover }) => ({
-    ':hover, :focus': {
-      'p::before': {
-        content: '""',
-        display: 'block',
-        width: '3em',
-        height: '3.1em',
-        background: `url(${hover})`,
-        backgroundRepeat: 'no-repeat',
-        margin: '0 auto 1em',
-        backgroundSize: '100%',
+  ({ iconHover }) => ({
+    [minWidth(breakpoints.medium)]: {
+      ':hover, :focus': {
+        'p::before': {
+          content: '""',
+          display: 'block',
+          width: '3em',
+          height: '3.1em',
+          background: `url(${iconHover})`,
+          backgroundRepeat: 'no-repeat',
+          margin: '0 auto 1em',
+          backgroundSize: '100%',
+        },
       },
     },
   }),
