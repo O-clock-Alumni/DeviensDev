@@ -93,6 +93,7 @@ export const Box = styled(Link)(
     [minWidth(breakpoints.medium)]: {
       maxWidth: 265,
     },
+
     [minWidth(breakpoints.xlarge)]: {
       minHeight: 230,
       margin: 'auto',
