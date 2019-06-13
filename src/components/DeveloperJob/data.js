@@ -16,7 +16,7 @@ export default [
     to: '/metier-developpeur/cest-quoi-un-developpeur',
     title: 'C’est quoi un développeur ?',
     icon: microscope,
-    hover: microscopeHover,
+    iconHover: microscopeHover,
     description:
       'Récapitulons les bases et décryptons le quotidien du métier de développeur.',
   },
@@ -24,7 +24,7 @@ export default [
     to: '/metier-developpeur/specialisations-web',
     title: 'Les spécialisations web',
     icon: tools,
-    hover: toolsHover,
+    iconHover: toolsHover,
     description:
       'Si le métier de développeur est extrêmement varié, celui de développeur web l’est tout autant.',
   },

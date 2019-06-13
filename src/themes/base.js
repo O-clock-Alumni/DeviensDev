@@ -165,28 +165,31 @@ const itemContainer = (align, isEven, wantLosange = false) => {
  * Base • Buttons
  */
 const greenEffect = (parent = '&', child = '::before') => ({
-  [parent]: {
-    overflow: 'hidden',
-    position: 'relative',
-    zIndex: 1,
-  },
-  [child]: {
-    background: colors.greenWater,
-    content: '""',
-    position: 'absolute',
-    width: '300%',
-    height: '300%',
-    top: '100%',
-    left: 0,
-    transition: '.2s',
-    transformOrigin: '0 0',
-    transform: 'rotate(15deg) translateZ(0)',
-    zIndex: -1,
-  },
-  ':hover, :focus': {
+  // #49 — Disable greenEffect, on mobile
+  [minWidth(breakpoints.medium)]: {
+    [parent]: {
+      overflow: 'hidden',
+      position: 'relative',
+      zIndex: 1,
+    },
     [child]: {
-      top: '-200%',
-      transition: '.5s',
+      background: colors.greenWater,
+      content: '""',
+      position: 'absolute',
+      width: '300%',
+      height: '300%',
+      top: '100%',
+      left: 0,
+      transition: '.2s',
+      transformOrigin: '0 0',
+      transform: 'rotate(15deg) translateZ(0)',
+      zIndex: -1,
+    },
+    ':hover, :focus': {
+      [child]: {
+        top: '-200%',
+        transition: '.5s',
+      },
     },
   },
 });
@@ -205,6 +208,7 @@ const primaryButton = {
   textAlign: 'center',
   textTransform: 'uppercase',
   width: 230,
+
   ...greenEffect(),
 };
 

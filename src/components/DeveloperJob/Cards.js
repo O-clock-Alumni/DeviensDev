@@ -15,9 +15,9 @@ import * as Style from './style';
 const Cards = () => (
   <Style.CardsContainer>
     <Style.Items>
-      {data.map(({ description, title, icon, to, hover }) => (
+      {data.map(({ description, title, icon, to, iconHover }) => (
         <Style.Card key={to}>
-          <Style.Box to={to} hover={hover}>
+          <Style.Box to={to} iconHover={iconHover}>
             <Style.Header>{title}</Style.Header>
             <Style.Description icon={icon}>{description}</Style.Description>
           </Style.Box>

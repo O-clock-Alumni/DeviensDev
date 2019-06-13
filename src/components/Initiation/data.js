@@ -14,7 +14,7 @@ export default [
     to: '/initiation/html',
     stage: 'HTML',
     icon: legos,
-    hover: legosHover,
+    iconHover: legosHover,
     // title: 'Lorem ipsum dolor sit amet,',
     description: 'Disséquons le squelette d’une page web',
   },
@@ -22,7 +22,7 @@ export default [
     to: '/initiation/css',
     stage: 'CSS',
     icon: artTools,
-    hover: artToolsHover,
+    iconHover: artToolsHover,
     // title: 'Lorem ipsum dolor sit amet,',
     description:
       'On a structuré le contenu, il faut maintenant le mettre en forme.',
