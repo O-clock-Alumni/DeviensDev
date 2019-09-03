@@ -6,6 +6,7 @@ cover: ./path/to/cover
 slug: 'veille-technologique-rester-a-jour'
 ---
 
+![alt image](.veille-1.gif)
 
 #Veille technologique : Rester à jour sans devenir taré(e)
 La veille technologique c’est une question de vie ou de mort. Tu le sais que si tu restes pas à jour t’es foutu ? En tous cas y’a plein de gens pénibles comme moi qui te le répètent en permanence. Par contre ça prend du temps et surtout c’est un peu caché. Du coup tu sais pas où regarder sur les énormes Internets mondiales. T’es allé à gauche à droite mais tu veux pas perdre ton temps. Par chance tu viens de tomber sur le blog le plus hackerman du monde. Aujourd’hui on va s’intéresser à la veille technologique et surtout on va voir comment ne pas se taper la tête dans les murs en la faisant.
@@ -17,7 +18,7 @@ Ouais je mets carrément du Quebecois dans les titres maintenant. En tout cas av
 
 
 
-veille technologique
+![alt image](.veille-2.gif)
 
 
 Il est pénible mais il a raison. Même si ça lui a pris du temps et de l’énergie de faire sa veille. Car oui, ça va te demander de faire un petit sacrifice au niveau de ton temps. Mais l’information importante c’est que ça va t’en faire gagner beaucoup plus dans le moyen/long terme. En plus de briller en société avec ta culture dev, tu vas savoir ce qui se passe dans ton domaine et du coup tu vas t’aider toi même. Après ta veille, au moment où tu vas arriver devant ton clavier pour hacker à tout va tu seras déjà dans le futur. Tu vas te souvenir de ce que t’as lu et certains choix techniques vont te paraître évidents. Ça va te faire gagner beaucoup de temps. Ta boite aussi elle va aimer ça. Elle va presque finir par croire que t’es une rockstar. Bref tout ça c’est bien joli mais où est-ce qu’on trouve toute cette fameuse veille technologique ?
@@ -32,17 +33,17 @@ Je vais te filer que des liens qui sont pas piqués des hannetons. Je les consul
 ###Cocorico
 
 
-![alt image](.)
+![alt image](.veille-3.jpg)
 Human Coders est une boite qui propose des formations dans le développement de façon générale. Ils ont également une partie dédiée aux articles et la veille. Les articles sont proposés par les gens des Internets. Du coup les liens de l’enfer sont filtrés par un modérateur avant publication. Ce qui fait qu’on a de choses sérieuses pratiquement tous les jours et sur presque tous les sujets possibles. J’ai l’impression qu’il y a une sorte de ranking live basé sur le nombre de clics et le temps depuis publication de l’article. Je dis ça un peu au pifomètre mais ça décide de ce que tu vois en premier sur le site.
 
 
 
-veille technologique
+![alt image](.veille-4.jpg)
 Si tu aimes ça hacker à tout va, le journal du hacker c’est vraiment pour toi. C’est un super slogan que je viens d’inventer ils devraient le mettre en page d’accueil tellement c’est beau. C’est un peu dans le même style qu’Human Coder sauf que les liens ne sont pas filtrés par un modérateur. Pareil on est sur Internet et du coup ça laisse la porte ouverte à toutes les fenêtres si y’a pas de filtres. L’astuce de ce site c’est que seules les personnes inscrites peuvent poster. Pour s’inscrire il faut être invité par quelqu’un de déjà d’inscrit. C’est un club privé quoi. Je vais pas vous mentir, je fais complètement parti du club 🙂 Qui veut une invit ? En tous cas ce système garantit une certaine qualité de contenu. Après je pense que si y’a des humoristes qui s’amusent à poster de la merde il doit y avoir un modo qui va sortir de sa grotte en mode Game of Throne pour couper les têtes qui dépassent.
 
 
 
-veille technologique
+![alt image](.veille-4.gif)
 Developpez.com c’est le dinosaure des sites de devs et c’est aussi là que vous allez trouver le plus d’information et de sources différentes sur le sujet. C’est aussi varié que complet et c’est extrêmement complet. Ça va de l’actualité aux publications en passant par les dossiers et les tutoriels y’a de quoi lire. Et à mon grand étonnement y’a même une section humour. Et oui on se fend la poire dans le club des développeurs. Je dirais même qu’on rit à gorge déployée entre professionnel de l’IT ! Alors j’y ai évidement passé beaucoup trop de temps dans cette partie humour. Je voulais comparer avec mon expertise sur les blagues. Mon verdict c’est que tout m’a pas fait rire, mais ça reste le bien on aime la touche humour!
 
 
@@ -50,17 +51,17 @@ Developpez.com c’est le dinosaure des sites de devs et c’est aussi là que v
 ###Do you parler english ?
 
 
-veille technologique
+![alt image](.veille-5.jpg)
 Côté anglophone je commence toujours par regarder du coté de Hacker News. Le fonctionnement d’Hacker News est très similaire à celui de Reedit. Tout le monde peut poster un article et les gens peuvent voter pour ou contre ce qui va influencer son classement. Par contre, chez Hacker News, pour pouvoir voter contre il faut 501 points de karmas. Les points de karmas t’en récupères à chaque fois que quelqu’un vote pour un article que tu as soumis. Donc en gros y’a que les gens qui postent de la qualité qui décident de ce qui est de la merde. Du coup l’armée des trolls professionnels des Internet a presque aucun impact sur le classement.
 
 
 
-veille technologique
+![alt image](.veille-6.jpg)
 Deuxième arrêt du coté de dev.to. Celui-ci est un peu différent des autres car en fait il s’agit d’une vraie communauté. Et du coup le système est un peu spécial car les articles sont faits par la communauté directement sur le site. N’importe qui peut créer un article via un lien sur la page d’accueil. Ça vous ouvre un éditeur de texte et vas-y lance toi Jean-Jean on croît en toi fais nous rêver. Après modération ça part directement sur le feed live. Résultat y’a pas mal de pépites de façon fréquentes. Il y a également des articles qui juste posent une question et la communauté répond dans les commentaires. Ce qui fait que tout le monde participe à l’article et le contenu est enrichi au fur et à mesure par tout le monde. C’est un de mes préférés, peut être que j’écrirais un article en anglais pour la premiere fois là-bas.
 
 
 
-veille technologique
+![alt image](.veille-7.jpg)
 Enfin on finit par la section programming de Reddit. Tu connais très bien le fonctionnement de Reddit je ne vais pas te le réexpliquer. Ce qui est intéressant avec cette source c’est la quantité d’articles qui est brassée au même endroit. C’est la communauté qui, sans limite, trie toute la vague de posts quotidiennement. Et comme la plupart des gens sont supers exigeants ce qui arrive en top c’est du genre “must read”. Un incontournable en tout cas, le nombre de dev qui passent et postent des articles sur ce Reddit est impressionnant.
 
 
@@ -70,7 +71,7 @@ Je sais ça fait beaucoup je viens de te saouler avec tous mes liens là . Je t�
 
 
 
-
+![alt image](.veille-8.gif)
 
 
 La réponse s’appelle Feedly. C’est un agrégateur de news qui se base sur les flux RSS et qui est disponible gratuitement sur toutes les plate formes imaginables. Concrètement ça va chercher pour toi dans une seule page et dans une seule liste tout ce qui t’intéresse et ça l’organise via popularité. Ouais ça fait tout le boulot il te reste juste à cliquer sur ton favori. À la base je voulais faire un top 3 des meilleurs agrégateurs en donnant les avantages et les inconvénients. Mais la vérité c’est que Feedly à mon sens est tellement au dessus que ça serait perdre mon temps et surtout le tiens. Feedly c’est le top. En quelques clics tu crées ton feed à toi avec seulement les sites qui t’intéressent, par exemple ce feed là est super, et après c’est disponible de façon super intuitive sur ton portable, ta tablette, ta PS4 et même ton Tom-Tom. C’est la vie. Ça te fera gagner un temps fou et tu vas rien rater de ce qui se passe.
@@ -84,7 +85,7 @@ L’avantage avec cette façon de faire c’est que tu peux t’intéresser à p
 
 
 
-
+![alt image](.veille-9.gif)
 
 
 Car oui tu ne peux pas tout savoir. Un expert ne sait pas tout. Je répète : UN EXPERT NE SAIT PAS TOUT. Les experts qui vous disent le contraire sont des menteurs qui doivent stresser de façon maximum à chaque fois que quelqu’un leur pose une question. La grosse goutte qui coule sur le front, on serre les fesses et on espère qu’on connaît la réponse ? Elle va être nulle ta vie d’expert si tu vois les choses comme ça. Par contre, un expert il connait le contexte et le fonctionnement des technologies. Car l’expert s’est intéressé à son métier en faisant sa veille technologique. La prochaine fois que vous parlez à un dev qui a l’air de tout savoir, pensez-y.
