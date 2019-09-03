@@ -6,6 +6,7 @@ cover: ./path/to/cover
 slug: 'veille-technologique-rester-a-jour'
 ---
 
+
 ![alt image](.veille-1.gif)
 
 #Veille technologique : Rester à jour sans devenir taré(e)
@@ -94,3 +95,5 @@ Car oui tu ne peux pas tout savoir. Un expert ne sait pas tout. Je répète : **
 
 ##Épilogue
 Ça va trop vite. Sans une veille efficace tu risques bien de te peter la gueule au milieu de l’open space sous le regard du malaise de Jean-Michel dev. Franchement, avec quelques addresses et des bonne habitudes, ça prend très peu de temps de le faire sérieusement. Si ça te prend une heure dans la semaine c’est déjà le bout du monde. Et surtout les résultats sont tellement énormes que ça serait con de rater ça.
+
+Originalement posté sur www.jesuisundev.com
