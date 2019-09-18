@@ -57,12 +57,12 @@ Côté anglophone je commence toujours par regarder du coté de [Hacker News](ht
 
 
 
-![alt image](./veille-6.jpg)
+![alt image](./veille-6.png)
 Deuxième arrêt du coté de [dev.to](https://dev.to/). Celui-ci est un peu différent des autres car en fait il s’agit d’une vraie communauté. Et du coup **le système est un peu spécial car les articles sont faits par la communauté directement sur le site.** N’importe qui peut créer un article via un lien sur la page d’accueil. Ça vous ouvre un éditeur de texte et vas-y lance toi Jean-Jean on croît en toi fais nous rêver. Après modération ça part directement sur le feed live. Résultat y’a pas mal de pépites de façon fréquentes. Il y a également des articles qui juste posent une question et la communauté répond dans les commentaires. Ce qui fait que **tout le monde participe à l’article et le contenu est enrichi au fur et à mesure par tout le monde.** C’est un de mes préférés, peut être que j’écrirais un article en anglais pour la premiere fois là-bas.
 
 
 
-![alt image](./veille-7.jpg)
+![alt image](./veille-7.png)
 Enfin on finit par [la section programming](https://www.reddit.com/r/programming/) de Reddit. Tu connais très bien le fonctionnement de Reddit je ne vais pas te le réexpliquer. **Ce qui est intéressant avec cette source c’est la quantité d’articles qui est brassée au même endroit.** C’est la communauté qui, sans limite, trie toute la vague de posts quotidiennement. Et comme la plupart des gens sont supers exigeants ce qui arrive en top c’est du genre “must read”. Un incontournable en tout cas, le nombre de dev qui passent et postent des articles sur ce Reddit est impressionnant.
 
 
