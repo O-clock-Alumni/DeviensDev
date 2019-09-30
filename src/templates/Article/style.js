@@ -201,6 +201,11 @@ export const Content = styled.div({
     },
   },
 
+  'img[src$=".gif"]': {
+    width: '100%',
+    height: '100%',
+  },
+
   // Texte d'illustration en dessous de l'image
   'a.gatsby-resp-image-link + em': {
     maxWidth: mainSize,
