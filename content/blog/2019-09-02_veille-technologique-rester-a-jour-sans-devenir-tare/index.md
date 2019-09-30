@@ -3,6 +3,7 @@ author: 'mehdi_z'
 title: 'Veille technologique : Rester à jour sans devenir taré(e)'
 category: 'Tuyau'
 slug: 'veille-technologique-rester-a-jour'
+priority: true
 ---
 
 ![alt image](./veille-1.gif)
