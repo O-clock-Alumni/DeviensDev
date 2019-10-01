@@ -4,7 +4,6 @@ author: 'deltakosh'
 category: 'vécu'
 cover: ./masque.png
 slug: 'fier-etre-developpeur'
-priority: true
 ---
 
 Je suis développeur depuis que j’ai 9 ans. Avec les sous récoltés à cet âge, je me suis offert mon premier Amstrad CPC 464 et j’y ai découvert les joies du BASIC.
