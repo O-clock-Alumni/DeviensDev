@@ -37,7 +37,7 @@ jobs:
   # Deploy to preprod
   test_and_deploy_preprod:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:10.16
 
     steps:
       - checkout
@@ -59,7 +59,7 @@ jobs:
   # Deploy to prod
   test_and_deploy_prod:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:10.16
 
     steps:
       - checkout
