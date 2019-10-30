@@ -1,4 +1,4 @@
-FROM oclock/static-nginx-nodejs:deviensdev
+FROM oclock/static-nginx-nodejs
 
 # Workaround node-gyp requiring make, gcc, g++ & python:
 RUN apk update && \
