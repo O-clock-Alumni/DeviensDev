@@ -23,16 +23,16 @@ ARG DEVIENSDEV_GITHUB_TOKEN
 # COPY bin/production-build.sh /bin/production-build.sh
 # RUN /bin/production-build.sh
 
-    # node-gyp is required by gatsby but not in the project's package.json (add it?)
+# node-gyp is required by gatsby but not in the project's package.json (add it?)
 RUN yarn global add node-gyp && \
     yarn --pure-lockfile --non-interactive
 
-    # Building the static website :)
+# Building the static website :)
 RUN rm -rf public .cache && \
     ./node_modules/.bin/gatsby build && \
     mkdir -p /var/www && \
-    # Working around the * expansion limitation inside running containers not running commands through a shell.
-    # @see https://stackoverflow.com/questions/44390360/mv-command-throwing-error-but-executing-fine-in-docker
+# Working around the * expansion limitation inside running containers not running commands through a shell.
+# @see https://stackoverflow.com/questions/44390360/mv-command-throwing-error-but-executing-fine-in-docker
     sh -c "mv /src/public/* /var/www/"
 
 CMD while sleep 3600; do :; done
