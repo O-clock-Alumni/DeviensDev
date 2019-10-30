@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10.16
+      - image: circleci/node:lts
 
     working_directory: ~/deviensdev
 
@@ -37,7 +37,7 @@ jobs:
   # Deploy to preprod
   test_and_deploy_preprod:
     docker:
-      - image: circleci/node:10.16
+      - image: circleci/node:lts
 
     steps:
       - checkout
@@ -59,7 +59,7 @@ jobs:
   # Deploy to prod
   test_and_deploy_prod:
     docker:
-      - image: circleci/node:10.16
+      - image: circleci/node:lts
 
     steps:
       - checkout
