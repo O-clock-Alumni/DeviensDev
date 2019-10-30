@@ -32,3 +32,9 @@ export const colors = {
   correct: '#36A095',
   wrong: '#C83F3C',
 };
+
+export const colorsRGB = {
+  // Black & White
+  black: '21, 16, 0',
+  white: '255, 255, 255',
+};

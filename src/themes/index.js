@@ -1,7 +1,7 @@
 /*
  * Export
  */
-export { colors } from './colors';
+export { colors, colorsRGB } from './colors';
 export { weights } from './fonts';
 export { default as base } from './base';
 export { default as utils } from './utils';

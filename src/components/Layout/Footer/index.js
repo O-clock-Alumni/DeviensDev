@@ -8,34 +8,47 @@ import { Link } from 'gatsby';
  * Local Import
  */
 import data from './data';
-import { Container, Nav, Item, Copyright, Strong } from './style';
+import * as S from './style';
 
 /*
  * Component
  */
 const Footer = () => (
-  <Container>
-    <Nav>
-      {/* Internal links */}
-      {data.map(({ to, label }) => (
-        <Item key={to}>
-          <Link to={to}>{label}</Link>
-        </Item>
-      ))}
+  <React.Fragment>
+    <S.Container>
+      <S.Nav>
+        {/* Internal links */}
+        {data.map(({ to, label }) => (
+          <S.Item key={to}>
+            <Link to={to}>{label}</Link>
+          </S.Item>
+        ))}
 
-      {/* Contact */}
-      <Item>
-        <a href="mailto:contact@deviens.dev">Nous contacter</a>
-      </Item>
-    </Nav>
+        {/* Contact */}
+        <S.Item>
+          <a href="mailto:contact@deviens.dev">Nous contacter</a>
+        </S.Item>
+      </S.Nav>
 
-    {/* Copyright */}
-    <Copyright href="https://oclock.io">
-      <div>
-        Un site mijoté par l’école <Strong>O’clock</Strong>
-      </div>
-    </Copyright>
-  </Container>
+      {/* Copyright */}
+      <S.Copyright href="https://oclock.io">
+        <div>
+          Un site mijoté par l’école <S.Strong>O’clock</S.Strong>
+        </div>
+      </S.Copyright>
+    </S.Container>
+
+    {/* Momentum */}
+    <S.Momentum>
+      <p>
+        Votez pour O’clock dans le concours Google Impact Challenge !{' '}
+        <S.Heart role="img" aria-label="Heart" />
+      </p>
+      <S.CTA href="https://oclock.io/google-impact-challenge">
+        Je vote pour O’clock
+      </S.CTA>
+    </S.Momentum>
+  </React.Fragment>
 );
 
 /*

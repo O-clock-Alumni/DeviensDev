@@ -104,6 +104,24 @@ const popInBig = {
 };
 
 /*
+ * Shake
+ */
+const shakeLong = {
+  '2%': { transform: 'scale3d(1.1, 1.1, 1)' },
+  '4%': { transform: 'scale3d(.94, .94, 1)' },
+  '6%': { transform: 'scale3d(1.04, 1.04, 1)' },
+  '8%': { transform: 'scale3d(.98, .98, 1)' },
+  '10%': { transform: 'none' },
+};
+
+/*
+ * Overlay
+ */
+const overlayBg = {
+  '100%': { background: 'rgba(10, 8, 0, 0.85)' },
+};
+
+/*
  * Export
  */
 export default {
@@ -126,4 +144,10 @@ export default {
   popIn,
   popOut,
   popInBig,
+
+  // Shake
+  shakeLong,
+
+  // Overlay
+  overlayBg,
 };
