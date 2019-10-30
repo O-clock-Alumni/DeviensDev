@@ -1,4 +1,4 @@
-FROM oclock/static-nginx-nodejs
+FROM oclock/static-nginx-nodejs:deviensdev
 
 # Workaround node-gyp requiring make, gcc, g++ & python:
 RUN apk update && \
@@ -11,7 +11,7 @@ RUN apk update && \
 # https://bugs.alpinelinux.org/issues/8087 => don't use https:// for --repository URLs
 RUN apk add vips-dev fftw-dev build-base \
     --update-cache \
-    --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ \
+    --repository http://dl-3.alpinelinux.org/alpine/edge/community/ \
     --repository http://dl-3.alpinelinux.org/alpine/edge/main \
     --allow-untrusted
 
