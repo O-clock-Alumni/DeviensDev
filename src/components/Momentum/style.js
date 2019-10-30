@@ -44,8 +44,8 @@ export const Tab = styled.div`
     margin: 0.35em auto;
     background: url(${pixelHeart}) no-repeat;
     background-size: 100%;
-    width: 1.3em;
-    height: 1.3em;
+    width: 1.35em;
+    height: 1.35em;
   }
 
   /* Hover */
