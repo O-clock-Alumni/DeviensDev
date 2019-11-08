@@ -25,14 +25,12 @@ jobs:
     - name: set github token
       run: |
         echo "DEVIENSDEV_GITHUB_TOKEN=${{ secrets.DEVIENSDEV_GITHUB_TOKEN }}" > .env
-    - name: remove preinstalled nodejs
-      run: |
-         sudo apt remove nodejs -y
     - name: install nodejs 10 and last npm
       run: |
-        wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
-        sudo apt install nodejs
-        sudo npm install -g npm
+        sudo npm install -g n
+    - name: select node 10
+      run: |
+        sudo n install dubnium
     - name: install nodejs dependancies
       run: |
         npm install
