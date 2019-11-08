@@ -27,7 +27,7 @@ jobs:
         echo "DEVIENSDEV_GITHUB_TOKEN=${{ secrets.DEVIENSDEV_GITHUB_TOKEN }}" > .env
     - name: remove preinstalled nodejs
       run: |
-         sudo apt remove nodejs -y
+         sudo apt remove node nodejs -y
     - name: install nodejs 10 and last npm
       run: |
         wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
