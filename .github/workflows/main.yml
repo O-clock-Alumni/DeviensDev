@@ -25,8 +25,9 @@ jobs:
     - name: set github token
       run: |
         echo "DEVIENSDEV_GITHUB_TOKEN=${{ secrets.DEVIENSDEV_GITHUB_TOKEN }}" > .env
-    - name: install nodejs 10 and last npm
+    - name: update npm and n selector
       run: |
+        sudo npm install -g npm
         sudo npm install -g n
     - name: select node 10
       run: |
@@ -40,3 +41,7 @@ jobs:
     - name: upload
       run: |
         aws s3 sync public/ s3://deviens.dev
+    - name: purge credentials
+      run: |
+        rm -rf ~/.aws
+        rm -f .env
