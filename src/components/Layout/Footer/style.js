@@ -1,28 +1,15 @@
 /*
  * Package Import
  */
-import styled, { keyframes } from 'react-emotion';
+import styled from 'react-emotion';
 
 /*
  * Local Import
  */
-import {
-  animation,
-  breakpoints,
-  colors,
-  maxWidth,
-  minWidth,
-  weights,
-} from 'src/themes';
+import { breakpoints, colors, maxWidth, minWidth, weights } from 'src/themes';
 
 // Assets
-import pixelHeart from 'src/assets/images/momentum/pixel-heart.svg';
 import heart from 'src/assets/images/common/heart.svg';
-
-/*
- * Keyframes
- */
-const shakeLong = keyframes(animation.shakeLong);
 
 /*
  * Style
@@ -145,73 +132,3 @@ export const Strong = styled.strong({
   fontWeight: weights.medium,
   margin: '0 0.2em',
 });
-
-// Momentum
-export const Momentum = styled.div`
-  background: linear-gradient(to bottom, #25ddd2, #1bb64d);
-  height: 12em;
-  color: ${colors.white};
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-weight: ${weights.semiBold};
-  text-align: center;
-  padding: 1em;
-  font-size: 1.1em;
-`;
-
-// ❤️
-export const Heart = styled.span`
-  ::before {
-    content: '';
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    margin: 0 auto -0.25em;
-
-    /* Illutrations */
-    background-image: url(${pixelHeart});
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    /* Animation */
-    animation: 6s 1s ${shakeLong} both infinite;
-  }
-`;
-
-export const CTA = styled.a`
-  /* Base */
-  border-radius: 2em;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: ${weights.bold};
-  letter-spacing: .12em;
-  padding: 1em 2em;
-  position: relative;
-  text-transform: uppercase;
-  transition: .2s;
-
-  /* Main */
-  border-bottom: .3em solid;
-  min-width: 10em;
-
-  /* Override */
-  background: ${colors.white};
-  border-color: #007c22;
-  color: #00b231;
-  text-shadow: none;
-  margin-top: 1em;
-
-  /* @medias */
-  ${maxWidth(breakpoints.small)} {
-    padding: 1em 1.5em;
-  },
-
-  ${maxWidth(breakpoints.xsmall)} {
-    letter-spacing: .06em;
-    padding-left: 1em;
-    padding-right: 1em;
-  },
-`;
