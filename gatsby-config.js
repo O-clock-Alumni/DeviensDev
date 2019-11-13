@@ -14,6 +14,7 @@ module.exports = {
     siteUrl: 'https://deviens.dev',
   },
   plugins: [
+    `gatsby-plugin-eslint`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,

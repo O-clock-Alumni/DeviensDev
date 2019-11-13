@@ -130,7 +130,7 @@ export default [
     image: galets,
     paragraphs: [
       <>
-        C'est le développeur web{' '}
+        C’est le développeur web{' '}
         <Bold>aussi bien à l’aise avec les technologies front, que back</Bold>.
         <br />
         Il est donc «&nbsp;full-stack&nbsp;», comprendre ici : «&nbsp;toutes les

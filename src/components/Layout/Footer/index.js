@@ -37,17 +37,6 @@ const Footer = () => (
         </div>
       </S.Copyright>
     </S.Container>
-
-    {/* Momentum */}
-    <S.Momentum>
-      <p>
-        Votez pour O’clock dans le concours Google Impact Challenge !{' '}
-        <S.Heart role="img" aria-label="Heart" />
-      </p>
-      <S.CTA href="https://oclock.io/google-impact-challenge">
-        Je vote pour O’clock
-      </S.CTA>
-    </S.Momentum>
   </React.Fragment>
 );
 
