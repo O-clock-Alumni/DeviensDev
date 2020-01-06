@@ -15,15 +15,13 @@ export default [
     stage: 'HTML',
     icon: legos,
     iconHover: legosHover,
-    // title: 'Lorem ipsum dolor sit amet,',
-    description: 'Disséquons le squelette d’une page web',
+    description: 'Disséquons le squelette d’une page web.',
   },
   {
     to: '/initiation/css',
     stage: 'CSS',
     icon: artTools,
     iconHover: artToolsHover,
-    // title: 'Lorem ipsum dolor sit amet,',
     description:
       'On a structuré le contenu, il faut maintenant le mettre en forme.',
   },
@@ -32,7 +30,6 @@ export default [
     empty: 'true',
     stage: 'JS',
     icon: meteor,
-    // title: 'Lorem ipsum dolor sit amet,',
     description:
       'Le parcours JavaScript est en cours d’élaboration. Il sera bientôt en ligne.',
   },
@@ -41,7 +38,6 @@ export default [
     empty: 'true',
     stage: 'PHP',
     icon: elephant,
-    // title: 'Lorem ipsum dolor sit amet,',
     description:
       'Le parcours PHP est en cours d’élaboration. Il sera bientôt en ligne.',
   },

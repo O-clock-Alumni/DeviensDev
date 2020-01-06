@@ -39,7 +39,7 @@ const DevWhat = () => (
         technologies différentes, pour des utilisations différentes et des
         contextes différents. Mais on peut tout aussi bien développer la même
         chose avec plusieurs langages ! La phrase que vous lisez actuellement a
-        été générée par du JavaScript, mais elle aurait pu être généré par du
+        été générée par du JavaScript, mais elle aurait pu être générée par du
         PHP, du Ruby, du Python...
       </Text>
     </Content>

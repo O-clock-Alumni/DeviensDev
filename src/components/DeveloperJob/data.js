@@ -31,7 +31,7 @@ export default [
   // {
   //   image: ordi,
   //   to: '/metier-developpeur/competences-et-prerequis',
-  //   title: 'Compétences et pré-requis',
+  //   title: 'Compétences et prérequis',
   //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
   // },
   // {

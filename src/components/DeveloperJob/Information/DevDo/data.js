@@ -35,7 +35,7 @@ export default [
     title: 'Code, rinse, repeat.',
     paragraphs: [
       'Une fois que l’environnement de dev est installé et configuré sur la machine du développeur, c’est là que commence le gros du boulot. Étape après étape, fonctionnalité après fonctionnalité, le développeur code tout ce dont le projet a besoin.',
-      'On distingue souvent deux parties distinctes : l’interface que l’on nomme « front-end », c’est-à-dire ce que voit l’utilisateur, et les coulisses, le « back-end », où s’effectue le traitement, les calculs et la persistance des données. Par exemple, pour un site web : le front, c’est le code qui permet d’afficher ce que l’on voit dans le navigateur ; le back, c’est le code qui permet de traiter les requêtes sur le serveur, d’enregistrer votre commande, d’envoyer un e-mail…',
+      'On distingue souvent deux parties distinctes : l’interface que l’on nomme « front-end », c’est-à-dire ce que voit l’utilisateur, et les coulisses, le « back-end », où s’effectuent le traitement, les calculs et la persistance des données. Par exemple, pour un site web : le front, c’est le code qui permet d’afficher ce que l’on voit dans le navigateur ; le back, c’est le code qui permet de traiter les requêtes sur le serveur, d’enregistrer votre commande, d’envoyer un e-mail…',
     ],
     image: lego,
     alt: 'Lego',

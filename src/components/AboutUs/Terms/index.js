@@ -16,7 +16,7 @@ const Terms = () => (
     <Subtitle>Mentions légales</Subtitle>
 
     <Party>
-      <ThirdTitle>Editeur</ThirdTitle>
+      <ThirdTitle>Éditeur</ThirdTitle>
       <Text>
         O’clock SAS au capital de 15 000 € ayant son siège social au 10 rue de
         penthievre — Paris (75008), immatriculée sous le numéro 818 614 588 au

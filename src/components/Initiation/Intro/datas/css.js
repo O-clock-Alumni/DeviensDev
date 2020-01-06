@@ -96,7 +96,7 @@ export default {
       {
         type: 'text',
         content: `C’est le moyen le plus pratique d’ajouter un style
-        CSS à un site et c’est justement celui ci que l’on va utiliser
+        CSS à un site et c’est justement celui-ci que l’on va utiliser
         lors de ce parcours d’initiation au CSS.
         On va lier un fichier <b>.css</b> externe à
         notre fichier HTML, ainsi toutes les modifications apportées à un
@@ -137,7 +137,7 @@ export default {
         élément HTML et d’en sélectionner plusieurs dans notre feuille de <b>style.css</b>.
         Voici un autre exemple où l’on va donner une couleur rouge à notre
         titre <span class="tags h1">h1</span>
-        et le transformer pour qu’il apparaisse en majuscule grâce à la
+        et le transformer pour qu’il apparaisse en majuscules grâce à la
         propriété <b>text-transform</b>. Nous allons en dessous donner du
         style à un paragraphe <b><span class="tags">p</span></b> en le centrant au milieu de
         la page.`,

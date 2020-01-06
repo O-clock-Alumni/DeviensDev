@@ -24,7 +24,7 @@ Quelques explications :
 
   - `vision`: édito/point de vue
   - `vécu`: retour d'expérience, témoignage
-  - `devenirdev`: on parle de formation/pré-requis
+  - `devenirdev`: on parle de formation/prérequis
   - `tuyau`: méthodes, conseils pratiques
   - `troll`: article provoc', style Gorafi, pour vaincre les clichés
 

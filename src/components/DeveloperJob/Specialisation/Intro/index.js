@@ -32,13 +32,13 @@ const Intro = () => (
       <Style.Subtitle>Pourquoi se spécialiser ?</Style.Subtitle>
       <Style.Text>
         Un développeur se doit d’avoir des connaissances générales. Mais pour
-        grimper en expertise et répondre des problématiques bien différentes,{' '}
+        grimper en expertise et répondre à des problématiques bien différentes,{' '}
         <Style.Bold>les développeurs sont amenés à se spécialiser</Style.Bold>.
         Ces nombreuses spécialisations apportent une fragmentation très
         importante du métier de développeur. Il y a différents types de
-        développeur selon la plateforme : logiciel, web, jeux-vidéo… Puis
-        plusieurs langages de programmation, puis plusieurs outils, libraries ou
-        frameworks au sein de ces langages. C’est l’une des raisons pour
+        développeur selon la plateforme : logiciel, web, jeux vidéo… Puis
+        plusieurs langages de programmation, puis plusieurs outils, librairies
+        ou frameworks au sein de ces langages. C’est l’une des raisons pour
         lesquelles le métier de développeur est en pénurie de compétences.
         Devenir développeur aujourd’hui, c’est donc{' '}
         <Style.Bold>

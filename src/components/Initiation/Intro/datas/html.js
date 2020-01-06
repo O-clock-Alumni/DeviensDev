@@ -17,7 +17,7 @@ export default {
     content: [
       <>
         HTML est un acronyme de <Bold>Hypertext Markup Language</Bold>. À vos
-        souhaits. Le HTML sert à structurer tous les éléments textuels d’ une
+        souhaits. Le HTML sert à structurer tous les éléments textuels d’une
         page web. Une page HTML est un peu le squelette de toute page web. C’est
         elle qui va définir le contenu et le hiérarchiser. Un titre, un passage
         important, une citation, une image : tout ça, c’est grâce au HTML.
@@ -112,7 +112,7 @@ export default {
         Il y a toujours une hiérarchie dans les
         balises. La balise <span class="tags h1">h1</span> appartient
         à la balise <span class="tags header">header</span>, qui
-        elle même appartient à la balise <span class="tags body">body</span> et
+        elle-même appartient à la balise <span class="tags body">body</span> et
         ainsi de suite. L’indentation n’est pas utile pour que les
         navigateurs comprennent le code HTML, mais elle est indispensable pour
         préserver la lisibilité pour nous, humains.`,

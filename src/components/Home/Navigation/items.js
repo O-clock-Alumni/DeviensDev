@@ -15,7 +15,7 @@ export default [
     to: '/metier-developpeur',
     title: 'Le métier de développeur',
     text:
-      'La vocation commence par l’information. Le métier de développeur étant complexe, il est nécessaire de se documenter avant de s’y orienter. Pour ce faire, découvre toutes nos fiches pratiques sur les compétences et pré-requis à réunir, les différentes spécialisations et les débouchés.',
+      'La vocation commence par l’information. Le métier de développeur étant complexe, il est nécessaire de se documenter avant de s’y orienter. Pour ce faire, découvre toutes nos fiches pratiques sur les compétences et prérequis à réunir, les différentes spécialisations et les débouchés.',
     image: tableOrdi,
     alt: 'Développeur web',
     align: 'left',
