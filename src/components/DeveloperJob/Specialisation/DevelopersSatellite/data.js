@@ -20,7 +20,7 @@ export default [
     paragraphs: [
       'Il n’est pas développeur à proprement parler mais il fait le pont entre l’équipe technique et le maître d’ouvrage. Il a donc à la fois des compétences relationnelles lui permettant de recevoir les demandes des clients, des compétences techniques pour les traduire auprès des développeurs et des compétences de gestion pour assurer le bon déroulement du projet.',
       'Si le chef de projet n’est pas technicien, certains projets possèdent un chef de projet technique. Il s’agit bien souvent d’un lead développeur qui se déleste du codage afin d’encadrer l’équipe technique.',
-      'S’il ne code plus lui-même, il peut toujours décider de choix techniques : architecture à mettre en place, technologies utilisées, méthodologie de projet, etc. Le chef de projet technique est indispensable sur des projets complexes, sur lesquels un chef de projet seul seul aurait du mal à estimer la charge de travail, et donc à planifier et suivre le déroulement du projet.',
+      'S’il ne code plus lui-même, il peut toujours décider de choix techniques : architecture à mettre en place, technologies utilisées, méthodologie de projet, etc. Le chef de projet technique est indispensable sur des projets complexes, sur lesquels un chef de projet seul aurait du mal à estimer la charge de travail, et donc à planifier et suivre le déroulement du projet.',
     ],
   },
 
