@@ -34,24 +34,24 @@ const data = {
   // Page : Mère
   mainMetierDeveloppeur: {
     title: 'Le métier de développeur, les infos à savoir avant de se lancer',
-    description: "Spécialisations, compétences, pré-requis, salaires et débouchés, tout ce qu'il savoir sur le métier de développeur avant de se former.",
+    description: "Spécialisations, compétences, prérequis, salaires et débouchés, tout ce qu'il savoir sur le métier de développeur avant de se former.",
   },
 
   // Page : Qu’est-ce que le métier de développeur
   metierDevWhat: {
     title: "Qu'est-ce qu'un développeur et quelles sont ses missions? ",
-    description: "Avec DeviensDev découvre le quotidien d'un développeur, les langages informatiques et les pré-requis essentiels pour te lancer dans ce métier.",
+    description: "Avec DeviensDev découvre le quotidien d'un développeur, les langages informatiques et les prérequis essentiels pour te lancer dans ce métier.",
     type: 'article',
   },
 
   // Page : Les spécialisations
   metierDevSpecialisation: {
-    title: 'Les métiers et spécialisation web : infos, missions et pré-requis',
+    title: 'Les métiers et spécialisation web : infos, missions et prérequis',
     description: "Découvre les métiers de développeur web et les différentes spécialisations. Back-end, Front-end, fullstack, intégrateur, tout savoir pour mieux s'orienter.",
     type: 'article',
   },
 
-  // @TODO — Page : Compétences et pré-requis
+  // @TODO — Page : Compétences et prérequis
   metierDevCompetences: {},
 
   // @TODO — Page : Salaires et débouchés

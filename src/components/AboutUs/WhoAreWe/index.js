@@ -21,12 +21,12 @@ const WhoAreWe = () => (
       </Strong>
       <br />
       Concocté par l’école <Link href="https://oclock.io/">O’clock</Link>,
-      DeviensDev est une plateforme d’informations visant à informer sur le
+      DeviensDev est une plateforme d’information visant à informer sur le
       métier de développeur et de découvrir le développement par le biais de
       parcours d’initiation portant sur des technologies variées. La plateforme
       DeviensDev est open-source et fonctionne sur le principe de contributions.
       Ainsi, tous les professionnels de ce métier qui souhaitent partager leurs
-      connaissances, leurs&nbsp;visions et leur passion du métier sont invités à
+      connaissances, leur&nbsp;vision et leur passion du métier sont invités à
       contribuer.
     </Text>
   </Container>

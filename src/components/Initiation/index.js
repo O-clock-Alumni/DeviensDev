@@ -20,11 +20,11 @@ const Initiation = () => (
 
       <S.TextIntro>
         <S.Bold>
-          Voici nos parcours d’initiations destinés à vous faire découvrir le
+          Voici nos parcours d’initiation destinés à vous faire découvrir le
           code.
         </S.Bold>
         Rien de bien méchant ni de complexe mais assez pour vous faire une idée
-        de ce qu’est le développement et des mécaniques de logique qu’impliquent
+        de ce qu’est le développement et des mécaniques de logique qu’implique
         chaque technologie.
       </S.TextIntro>
     </S.IntroContainer>

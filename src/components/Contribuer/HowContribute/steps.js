@@ -1,8 +1,16 @@
 /* eslint-disable max-len */
 
 /*
+ * Package Import
+ */
+import React from 'react';
+
+/*
  * Local Import
  */
+import { URL_REPO_GITHUB } from 'src/data';
+
+// Assets
 import check from 'src/assets/images/contribuer/Check.svg';
 import lunettes from 'src/assets/images/contribuer/Lunettes.svg';
 import calendar from 'src/assets/images/contribuer/Calendar.svg';
@@ -11,13 +19,20 @@ import calendar from 'src/assets/images/contribuer/Calendar.svg';
  * How to Contribute
  */
 export const stepsContribute = [
-  // {
-  //   id: 1,
-  //   text: 'Tu fork le dépôt $GitHub$',
-  // },
+  {
+    id: 1,
+    text: (
+      <React.Fragment>
+        Fork le dépôt{' '}
+        <a href={URL_REPO_GITHUB} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </React.Fragment>
+    ),
+  },
   {
     id: 2,
-    text: 'Crée une branche et positionnes toi dessus',
+    text: 'Crée une branche et positionne-toi dessus',
   },
   {
     id: 3,

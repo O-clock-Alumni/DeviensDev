@@ -35,9 +35,9 @@ const Result = ({ language, score, totalQuestions }) => {
           <S.Bold>
             {score}/{totalQuestions}
           </S.Bold>{' '}
-          bonnes réponses. Bon OK, c’est pas un score tonitruant mais c’ est
-          normal, c’est le métier qui rentre. Ça mérite encore un peu d
-          ’entrainement sur le {language} avant de passer à la suite. On
+          bonnes réponses. Bon OK, c’est pas un score tonitruant mais c’est
+          normal, c’est le métier qui rentre. Ça mérite encore un peu
+          d’entrainement sur le {language} avant de passer à la suite. On
           continue ?
           <S.ButtonList>
             <S.Button to={`/initiation/${language.toLowerCase()}`}>

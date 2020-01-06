@@ -14,7 +14,7 @@ import { Container, WantMore, Text, Button } from './style';
 const ContributeButton = () => (
   <Container>
     <WantMore>T’as envie de parler dev ?</WantMore>
-    <Text>Envoie nous ton article pour contribuer à la plateforme !</Text>
+    <Text>Envoie-nous ton article pour contribuer à la plateforme !</Text>
     <Button to="/contribuer">Contribuer</Button>
   </Container>
 );

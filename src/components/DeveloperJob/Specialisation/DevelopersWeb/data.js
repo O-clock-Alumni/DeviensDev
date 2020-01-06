@@ -18,7 +18,6 @@ import { Bold } from 'src/components/style';
  */
 export default [
   {
-    // @TODO id use as index: not good
     id: 1,
     title: 'Le développeur front-end',
     description: 'Il donne vie à nos écrans',
@@ -43,8 +42,8 @@ export default [
           Le développement front-end peut d’ailleurs se subdiviser en plusieurs
           spécialités
         </Bold>
-        , selon sa library ou son framework de prédilection : React, Angular,
-        Vue… Mais puisque toutes ses technologies sont basées sur du JavaScript,
+        , selon sa librairie ou son framework de prédilection : React, Angular,
+        Vue… Mais puisque toutes ces technologies sont basées sur du JavaScript,
         on peut facilement passer de l’une à l’autre. Un développeur Angular
         peut être embauché pour faire du Vue par exemple.
       </>,
@@ -77,7 +76,7 @@ export default [
         <Bold>le développeur est spécialisé sur un langage</Bold>. Plus que ça,
         il est souvent spécialisé dans une technologie en particulier. Plutôt
         que des «&nbsp;développeurs back&nbsp;», on trouvera plutôt des
-        «&nbsp;développeurs PHP&nbsp;» ou «&nbsp;développeur Python&nbsp;»,
+        «&nbsp;développeurs PHP&nbsp;» ou «&nbsp;développeurs Python&nbsp;»,
         voire des «&nbsp;développeurs Symfony&nbsp;» ou «&nbsp;développeur
         Django&nbsp;».
       </>,
@@ -115,7 +114,7 @@ export default [
         passe par tout un tas de bonnes pratiques de qualité web.
       </>,
 
-      'Par exemple, les interactions doivent être compréhensibles : un bouton peut recevoir un style différent au survol de la souris pour montrer qu’il est cliquable. Mais il faut que ce soit également ergonomique sur mobile où il n’y a pas de souris, ou encore que l’on puisse naviguer au clavier. L’accessibilité concerne également les navigateurs pour personnes malvoyantes qui fera une lecture orale du contenu. Des détails qui comptent.',
+      'Par exemple, les interactions doivent être compréhensibles : un bouton peut recevoir un style différent au survol de la souris pour montrer qu’il est cliquable. Mais il faut que ce soit également ergonomique sur mobile où il n’y a pas de souris, ou encore que l’on puisse naviguer au clavier. L’accessibilité concerne également les navigateurs pour personnes malvoyantes qui feront une lecture orale du contenu. Des détails qui comptent.',
 
       'Travailler l’accessibilité a également un impact sur les utilisateurs disposant d’un navigateur ancien ou d’une connexion lente. D’ailleurs, l’intégrateur web a aussi en charge une partie de l’optimisation des performances, en travaillant sur des problématiques comme la compression des ressources.',
 
@@ -131,13 +130,13 @@ export default [
     paragraphs: [
       <>
         C’est le développeur web{' '}
-        <Bold>aussi bien à l’aise avec les technologies front, que back</Bold>.
+        <Bold>aussi bien à l’aise avec les technologies front que back</Bold>.
         <br />
         Il est donc «&nbsp;full-stack&nbsp;», comprendre ici : «&nbsp;toutes les
         couches, tout terrain, toutes technos&nbsp;». Le&nbsp;développeur web
         full-stack peut donc — en théorie — travailler sur tous les aspects de
         la conception d’un site ou d’une application, en gérant les
-        problématiques front, du back ainsi que la partie serveur.
+        problématiques du front, du back ainsi que la partie serveur.
       </>,
 
       <>

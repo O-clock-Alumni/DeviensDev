@@ -21,12 +21,9 @@ const Intro = () => (
       <br />
       ParlonsDev, c’est le blog de DeviensDev ! Vous y trouverez des conseils et
       tutos, des témoignages de développeurs chevronnés qui souhaitent partager
-      leurs expérience et aussi du contenu totalement inutile mais pourtant
+      leur expérience et aussi du contenu totalement inutile mais pourtant
       indispensable à la compréhension de ce métier. Bonne lecture !
     </Text>
-
-    {/* TODO: Logo DeviensDev */}
-    {/* <Logo>DeviensDev</Logo> */}
   </Container>
 );
 

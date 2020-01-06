@@ -22,10 +22,10 @@ const Competences = () => (
       <Crane />
       <S.Text>
         <S.Bold>
-          Vous retrouverez bientôt ici tous les compétences et pré-requis pour
+          Vous retrouverez bientôt ici tous les compétences et prérequis pour
           devenir développeur web.
         </S.Bold>{' '}
-        Si vous êtes inspirés sur le sujet, n&apos;hésitez pas à contribuer à
+        Si vous êtes inspiré(e) sur le sujet, n&apos;hésitez pas à contribuer à
         cette future page !
       </S.Text>
 

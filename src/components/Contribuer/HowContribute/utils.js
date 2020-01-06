@@ -14,11 +14,15 @@ import { Code } from './style';
  * @return {Array}
  */
 export const translate = str => {
-  const parts = str.split(/[%]/);
+  if (typeof str === 'string') {
+    const parts = str.split(/[%]/);
 
-  for (let i = 1; i < parts.length; i += 2) {
-    parts[i] = <Code key={i}>{parts[i]}</Code>;
+    for (let i = 1; i < parts.length; i += 2) {
+      parts[i] = <Code key={i}>{parts[i]}</Code>;
+    }
+
+    return parts;
   }
 
-  return parts;
+  return str;
 };

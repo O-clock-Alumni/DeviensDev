@@ -16,7 +16,7 @@ const DevWeb = () => (
     <Title>Et le développeur web ?</Title>
     <Text>
       Internet fut une révolution, et notamment le web : ce réseau de sites qui
-      comportent aujourd’hui des milliards de pages web sur des millions de
+      comporte aujourd’hui des milliards de pages web sur des millions de
       serveurs. Parmi les développeurs, le développeur web fait donc partie des
       spécialités les plus courantes. En prime, le développement web est un bon
       moyen de mettre le pied à l’étrier, car on a tous sous la main un
