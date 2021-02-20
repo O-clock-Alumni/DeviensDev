@@ -51,7 +51,7 @@
     "gatsby-transformer-remark": "^2.6.33",
     "gatsby-transformer-sharp": "^2.3.3",
     "lodash.isequal": "^4.5.0",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.21.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-emotion": "^9.2.10",
