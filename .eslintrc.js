@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['airbnb', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
@@ -11,6 +11,7 @@ module.exports = {
     browser: true,
   },
   globals: {
+    __PATH_PREFIX__: true,
     graphql: true,
     config: true,
   },
