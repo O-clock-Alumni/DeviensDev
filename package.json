@@ -44,7 +44,7 @@
     "gatsby-plugin-manifest": "^2.2.27",
     "gatsby-plugin-react-helmet": "^3.1.14",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sharp": "^2.2.37",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-plugin-sitemap": "^2.2.20",
     "gatsby-remark-copy-linked-files": "^2.1.29",
     "gatsby-remark-images": "^3.1.30",
