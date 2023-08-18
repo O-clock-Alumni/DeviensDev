@@ -3,45 +3,44 @@ name: CD
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
   deploy:
-
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
 
     steps:
-    - uses: actions/checkout@v1
-    - name: install aws cli
-      run: sudo apt install awscli
-    - name: config aws
-      run: |
-        mkdir ~/.aws
-        echo "[default]" > ~/.aws/config
-        echo "region = eu-west-3" >> ~/.aws/config
-        echo "[default]" > ~/.aws/credentials
-        echo "aws_access_key_id = ${{ secrets.AWS_KEY_ID}}" >> ~/.aws/credentials
-        echo "aws_secret_access_key = ${{ secrets.AWS_ACCESS_KEY}}" >> ~/.aws/credentials
-    - name: set github token
-      run: |
-        echo "DEVIENSDEV_GITHUB_TOKEN=${{ secrets.DEVIENSDEV_GITHUB_TOKEN }}" > .env
-    - name: update npm and n selector
-      run: |
-        sudo npm install -g npm
-        sudo npm install -g n
-    - name: select node 10
-      run: |
-        sudo n install dubnium
-    - name: install nodejs dependancies
-      run: |
-        npm install
-    - name: build static files
-      run: |
-        npm run build
-    - name: upload
-      run: |
-        aws s3 sync public/ s3://deviens.dev
-    - name: purge credentials
-      run: |
-        rm -rf ~/.aws
-        rm -f .env
+      - uses: actions/checkout@v1
+      - name: install aws cli
+        run: sudo apt install awscli
+      - name: config aws
+        run: |
+          mkdir ~/.aws
+          echo "[default]" > ~/.aws/config
+          echo "region = eu-west-3" >> ~/.aws/config
+          echo "[default]" > ~/.aws/credentials
+          echo "aws_access_key_id = ${{ secrets.AWS_KEY_ID}}" >> ~/.aws/credentials
+          echo "aws_secret_access_key = ${{ secrets.AWS_ACCESS_KEY}}" >> ~/.aws/credentials
+      - name: set github token
+        run: |
+          echo "DEVIENSDEV_GITHUB_TOKEN=${{ secrets.DEVIENSDEV_GITHUB_TOKEN }}" > .env
+      - name: update npm and n selector
+        run: |
+          sudo npm install -g npm
+          sudo npm install -g n
+      - name: select node 10
+        run: |
+          sudo n install dubnium
+      - name: install nodejs dependancies
+        run: |
+          npm install
+      - name: build static files
+        run: |
+          npm run build
+      - name: upload
+        run: |
+          aws s3 sync public/ s3://deviens.dev
+      - name: purge credentials
+        run: |
+          rm -rf ~/.aws
+          rm -f .env
