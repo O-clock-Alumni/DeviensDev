@@ -4,7 +4,7 @@
  * Local Import
  */
 import sifflet from 'src/assets/images/MetierDev/sifflet.png';
-import peinture from 'src/assets/images/MetierDev/peinture.png';
+import pinceaux from 'src/assets/images/MetierDev/pinceaux.png';
 import cloche from 'src/assets/images/MetierDev/cloche.png';
 
 /*
@@ -29,7 +29,7 @@ export default [
     title: 'Le webdesigner',
     description: 'L’alliance de l’esthétique et de l’ergonomie',
     align: 'left',
-    image: peinture,
+    image: pinceaux,
     paragraphs: [
       'Aussi appelé graphiste, ou parfois « UX designer » lorsque le travail d’ergonomie est prépondérant (ou pour faire classe sur le CV), le webdesigner travaille sur l’identité visuelle et notamment l’aspect graphique de l’application à réaliser.',
       'Il va travailler sur la réalisation de la charte graphique, du logo, des maquettes des pages… Dans un contexte web, il travaille avec l’intégrateur web ou le développeur front-end qui intégrera ses maquettes.',
